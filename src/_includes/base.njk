@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bulma +1 11ty</title>
+    <title> {{ title }}</title>
     <link rel="stylesheet" href="/main.css">
   </head>
+  
+  
   <body>
-   
 
-<h1 class= 'title '> Olla amigos</h1>
+   {{ content | safe}}
 
-<script type="text/javascript" src="/lib/main.js"></script>
+
+
   </body>
 </html>

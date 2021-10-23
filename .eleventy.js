@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
-    // Return your Object options:
+    // assets we want to passt hrough
+    
 eleventyConfig.addPassthroughCopy('./src/main.css');
 eleventyConfig.addPassthroughCopy('./src/lib/main.js');
 
