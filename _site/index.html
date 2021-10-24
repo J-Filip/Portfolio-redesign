@@ -4,21 +4,175 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Fancy title</title>
+    <title>
+      Fancy title</title>
     <link rel="stylesheet" href="/main.css">
   </head>
-  
-  
+
   <body>
 
-   
-<div class="container">
-<h2 class="title has-text-primary is-size-4">Hello You beast!</h2>
-<p>How You doing?</p>
-</div>
-<script src="/lib/main.js"></script>
+    <header>
+      <nav class="navbar py-4">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#" data-config-id="brand">
+        <img class="image" src="/assets/logo.png" alt="" height = '105px' width='70px'>
+      </a>
+      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+      <a class="navbar-item" href="/" data-config-id="link2">Home</a>
+      <a class="navbar-item" href="/about" data-config-id="link1">About</a>
+      <a class="navbar-item" href="/projects" data-config-id="link1">Projects</a>
+      </div>
+      <div class="navbar-item navbar-end">
+        <div class="buttons"><a class="button" href="#" data-config-id="secondary-action">Sign In</a><a class="button is-primary" href="#" data-config-id="primary-action">Sign Up</a></div>
+      </div>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <main>
+      
+<section class="section mb-6">
+  <div class="container">
+    <div class="is-vcentered columns is-multiline">
+      <div class="column is-6" >
+        <img class="image" style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/download.png" alt="" data-config-id="04_image">
+      </div>
+      <div class="column is-5 ml-auto">
+        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">Hi You!</h2>
+        <p class="subtitle has-text-grey mb-2" data-config-id="desc">I am Filip Jugkala.</p>
+        <p class="subtitle has-text-grey mb-5" data-config-id="desc">A developer from Zagreb, Croatia.</p>
+        <a class="button is-primary" href="#" data-config-id="primary-action">Explore my work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="mb-6 columns is-multiline is-centered">
+      <div class="column is-8 has-text-centered">
+        <span class="has-text-grey-dark" data-config-id="label">Featured projects</span>
+        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">See this first.</h2>
+        <p class="subtitle has-text-grey" data-config-id="desc">See this, don't look anywhere else, just check this and then do whatever. But this first, please.</p>
+      </div>
+    </div>
+
+    <div class="columns is-multiline">      <div class="column is-6 mb-5">
+        <div class="columns is-multiline">
+          <div class="column is-4 mb-4">
+            <img class="image mt-5" src=/assets/blue-flame.png alt="" data-config-id="05_image1">
+          </div>
+
+          <div class="column is-8">
+            <span><small class="has-text-grey-dark" data-config-id="date1">1 Jan 2020</small></span>
+            <h2 class="mb-2 is-size-3 is-size-4-mobile has-text-weight-bold" data-config-id="title1">My First Project</h2>
+            <p class="subtitle has-text-grey" data-config-id="desc1">My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes.</p>
+            <a href="/projects/2020 My first project/" data-config-id="action">Read More</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
 
+<section class="section">
+  <div class="container">
+      <div class="column mb-6 has-text-centered is-centered">
+        <span class="has-text-grey-dark" data-config-id="label">Tools</span>
+        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">Look what I know.</h2>
+        <p class="subtitle has-text-grey" data-config-id="desc">OKay I don't "know it" know it but I can make something with it.</p>
+      </div>
+    
+    <div class="columns is-multiline">
+
+      <div class="column is-2 mb-4">
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/slack.svg" alt="" data-config-id="image1">
+        </div>
+      </div>
+
+      <div class="column is-2 mb-4">
+        <h2 class="subtitle has-text-centered">Svelte</h2>
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/icons8-svelte.svg" alt="" data-config-id="image2">
+        </div>
+      </div>
+      <div class="column is-2 mb-4">
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/spotify.svg" alt="" data-config-id="image3">
+        </div>
+      </div>
+      <div class="column is-2 mb-4">
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/amazon.svg" alt="" data-config-id="image4">
+        </div>
+      </div>
+      <div class="column is-2 mb-4">
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/netflix.svg" alt="" data-config-id="image5">
+        </div>
+      </div>
+      <div class="column is-2">
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/stripe.svg" alt="" data-config-id="image6">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+    </main>
+
+<footer>
+      
+<footer class="section">
+  <div class="container pb-5 has-text-centered">
+    <a class="mx-auto mb-4 is-inline-block" href="#" data-config-id="brand">
+      <img class="image" src="/assets/logo.png" alt="" width="96px">
+    </a>
+    <ul class="mb-4 is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center">
+      <li><a class="button is-white" href="#" data-config-id="01_link1">About</a></li>
+      <li><a class="button is-white" href="#" data-config-id="01_link2">Company</a></li>
+      <li><a class="button is-white" href="#" data-config-id="01_link3">Services</a></li>
+      <li><a class="button is-white" href="#" data-config-id="01_link4">Testimonials</a></li>
+    </ul>
+    <div>
+      <a class="mr-4 is-inline-block" href="#">
+        <img src="bulma-plain-assets/socials/facebook.svg" data-config-id="auto-img-1-3">
+      </a>
+      <a class="mr-4 is-inline-block" href="#">
+        <img src="bulma-plain-assets/socials/twitter.svg" data-config-id="auto-img-2-3">
+      </a>
+      <a class="mr-4 is-inline-block" href="#">
+        <img src="bulma-plain-assets/socials/github.svg" data-config-id="auto-img-3-3">
+      </a>
+      <a class="mr-4 is-inline-block" href="#">
+        <img src="bulma-plain-assets/socials/instagram.svg" data-config-id="auto-img-4-3">
+      </a>
+      <a class="is-inline-block" href="#">
+        <img src="bulma-plain-assets/socials/linkedin.svg" data-config-id="auto-img-5-3">
+      </a>
+    </div>
+  </div>
+  <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+  <div class="container">
+    <p class="has-text-centered" data-config-id="copy">All rights reserved | Filip Jugkala 2021</p>
+  </div>
+</footer>
+</footer>
   </body>
 </html>
