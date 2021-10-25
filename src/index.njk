@@ -7,48 +7,25 @@ layout: base.njk
   <div class="container">
     <div class="is-vcentered columns is-multiline">
       <div class="column is-6" >
-        <img class="image" style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/download.png" alt="" data-config-id="04_image">
+        <img class="image " style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/download.png" alt="" data-config-id="04_image">
       </div>
       <div class="column is-5 ml-auto">
-        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">Hi You!</h2>
-        <p class="subtitle has-text-grey mb-2" data-config-id="desc">I am Filip Jugkala.</p>
+        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">Ooh a visitor.</h2>
+        <p class="subtitle has-text-grey mb-2" data-config-id="desc">I am  <span class="has-text-grey" data-config-id="label">Filip Jugkala</span></p>
         <p class="subtitle has-text-grey mb-5" data-config-id="desc">And to my left we have a blob. How cool is that!</p>
-        <a class="button is-primary" href="#" data-config-id="primary-action">Explore my work</a>
+        <a class="button is-primary background--custom" href="#" data-config-id="primary-action ">Explore my work</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="mb-6 columns is-multiline is-centered">
-      <div class="column is-8 has-text-centered">
-        <span class="has-text-grey-dark" data-config-id="label">Featured projects</span>
-        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">See this first.</h2>
-        <p class="subtitle has-text-grey" data-config-id="desc">See this, don't look anywhere else, just check this and then do whatever. But this first, please.</p>
-      </div>
-    </div>
 
-    <div class="columns is-multiline">
-      {%- for post in collections.post | reverse -%}
-
-        {% include 'project-blob.njk' %}
-
-      {%- endfor %}
-
-    </div>
-
-  </div>
-</section>
-
-
-
-<section class="section">
-  <div class="container">
-   <div class="mb-6 columns is-multiline is-centered">
+<section class="section" >
+  <div class="container " >
+   <div class="mb-6 columns is-multiline is-centered" >
       <div class="column is-8 mb-6 has-text-centered ">
         <span class="has-text-grey-dark" data-config-id="label">Tools</span>
-        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">Look what I know.</h2>
+        <h2 class="mt-2 mb-4 is-size-2 is-size-3-mobile has-text-weight-bold " data-config-id="header">Look what I know.</h2>
         <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do You know? Hm? Hm?! </p>
       </div>
     </div>
@@ -57,7 +34,7 @@ layout: base.njk
 
       <div class="column is-4 mb-4">
         <h2 class="subtitle has-text-centered">JavaScript</h2>
-        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+        <div class="box is-flex is-align-items-center has-background-light background--custom" style="height: 128px;">
           <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/javascript.svg" alt="" data-config-id="image2">
         </div>
 
@@ -79,7 +56,7 @@ layout: base.njk
 
 
       </div>
-    </div>
+   
 
     <div class="columns is-multiline">
 
@@ -112,6 +89,42 @@ layout: base.njk
 
       </div>
     </div>
+ </div>
+  </div>
+</section>
+
+<section class="section" style="background: radial-gradient(circle, #4f46e5 10%, transparent 11%),radial-gradient(circle at bottom left, #4f46e5 5%, transparent 6%),radial-gradient(circle at bottom right, #4f46e5 5%, transparent 6%),radial-gradient(circle at top left, #4f46e5 5%, transparent 6%),radial-gradient(circle at top right, #4f46e5 5%, transparent 6%);
+        background-size: 1em 1em;
+        background-color: #f9f9ff;
+        opacity: 1">
+  <div class="container" >
+    <div class="mb-6 columns is-multiline is-centered" >
+      <div class="column is-8 has-text-centered">
+        <span class="has-text-grey-dark" data-config-id="label">Featured projects</span>
+        <h2 class="mt-2 mb-4 is-size-2 is-size-3-mobile has-text-weight-bold has-text-primary" data-config-id="header">Wanna see some projects?</h2>
+        {# <p class="subtitle is-size-4 has-text-weight-bold " data-config-id="desc">How many have You made? Pff. I thought so...</p> #}
+      </div>
+    </div>
+
+    <div class="columns is-multiline mb-16" >
+
+      {%- for post in collections.post | reverse -%}
+
+        {% include 'project-blob.njk' %}
+
+      {%- endfor %}
+    </div>
+
+    <div class="has-text-centered"><a class="button is-primary" href="#" data-config-id="primary-action">MORE! MOOOORE!</a></div>
+
+    {# <div class="columns is-multiline">
+      {%- for post in collections.post | reverse -%}
+
+        {% include 'project-blob.njk' %}
+
+      {%- endfor %}
+
+    </div> #}
 
   </div>
 </section>
@@ -129,7 +142,7 @@ layout: base.njk
       <div class="column is-6">
         <div  >
           <img   class="mb-3 is-block image is-fullwidth" style="height: 64px; width: 64px; "  src="/assets/quote.png" alt="" data-config-id="auto-img-1-1">
-          <h2 class="mb-5 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header" >This guy kicks a**!</h2>
+          <h2 class="mb-5 is-size-2 is-size-3-mobile has-text-weight-bold has-text-primary" data-config-id="header" >This guy kicks a**!</h2>
           <p class="subtitle has-text-grey mb-2 " data-config-id="desc"> Our company, which is a real company, just wanted a simple website and my, my, he really made it. An animal!</p>
           <p class="subtitle has-text-grey mb-6" data-config-id="desc">I am a real person for sure, for sure and this is not Filip writing for me noooo.. I am writing this. Really.</p>
           <h4 class="is-size-5 has-text-weight-bold" data-config-id="name">Name A. Person</h4>

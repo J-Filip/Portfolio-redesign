@@ -1,15 +1,15 @@
-      <div class="column is-6 mb-5">
-        <div class="columns is-multiline">
-          <div class="column is-4 mb-4">
-            <img class="image mt-5" src={{ post.data.image }} alt="" data-config-id="05_image1">
-          </div>
-
-          <div class="column is-8">
-            <span><small class="has-text-grey-dark" data-config-id="date1">{{post.date | postDate}}</small></span>
-            <h2 class="mb-2 is-size-3 is-size-4-mobile has-text-weight-bold" data-config-id="title1">{{post.data.title}}</h2>
-            <p class="subtitle has-text-grey" data-config-id="desc1">{{post.data.description}}</p>
-            <a href="{{ post.url}}" data-config-id="action">Read More</a>
-          </div>
-
-        </div>
+<div class="column is-4 "  >
+  <div class="box">
+    <div class="box-content">
+      <div class="is-relative mb-6" style="height: 216px;">
+        <small class="is-absolute is-top-o is-right-0 mt-4 mr-4 tag is-dark" style="z-index: 10;" data-config-id="label1">PROJECT</small>
+        <img class="image is-fullwidth is-cover is-rounded" style="height: 100%;" src="{{ post.data.image }} "alt="" data-config-id="image1">
       </div>
+      <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">{{post.date | postDate}}</span>
+      <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">{{post.data.title}}</h2>
+      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">{{post.data.description}}
+      <a class="is-size-6" href="{{ post.url}}"  data-config-id="action">Read more</a>
+      </p>
+    </div>
+  </div>
+</div>

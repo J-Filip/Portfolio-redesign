@@ -3,9 +3,9 @@ title: My First Project
 author: Filip Jugkala
 date: 2020-01-01
 tags: ['post', 'featured', 'ahk']
-image: /assets/blue-flame.png
+image: /assets/blue-blob.svg
 imageAlt: 
-description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes.
+description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
 ---
 What is MejloMlat you ask? It's a GUI for mail composing and web scraping.
 

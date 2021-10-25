@@ -3,7 +3,7 @@ title: CN Helper
 author: Filip Jugkala
 date: 2021-02-01
 tags: ['post']
-image: /assets/red-flame.png
+image: /assets/green-blob.svg
 imageAlt: 
 description: Internal knowledge base/web. I was tired of using old internal web. Then I got tired of myself complaining about it. WordPress came perfectly.
 ---
