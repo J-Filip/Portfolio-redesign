@@ -1,8 +1,8 @@
-built with 11ty & Bulma  
-# New web resume 
+_built with 11ty & Bulma_  
+# In dev
 
 
-## Used  start package for [Bulma](http://bulma.io) with changes
+## Used  start package for [Bulma](http://bulma.io) with some changes:
 
 ### Changes
 

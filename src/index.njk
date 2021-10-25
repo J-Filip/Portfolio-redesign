@@ -12,7 +12,7 @@ layout: base.njk
       <div class="column is-5 ml-auto">
         <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">Hi You!</h2>
         <p class="subtitle has-text-grey mb-2" data-config-id="desc">I am Filip Jugkala.</p>
-        <p class="subtitle has-text-grey mb-5" data-config-id="desc">A developer from Zagreb, Croatia.</p>
+        <p class="subtitle has-text-grey mb-5" data-config-id="desc">And to my left we have a blob. How cool is that!</p>
         <a class="button is-primary" href="#" data-config-id="primary-action">Explore my work</a>
       </div>
     </div>
@@ -30,7 +30,7 @@ layout: base.njk
     </div>
 
     <div class="columns is-multiline">
-      {%- for post in collections.featured | reverse -%}
+      {%- for post in collections.post | reverse -%}
 
         {% include 'project-blob.njk' %}
 
@@ -45,47 +45,128 @@ layout: base.njk
 
 <section class="section">
   <div class="container">
-      <div class="column mb-6 has-text-centered is-centered">
+   <div class="mb-6 columns is-multiline is-centered">
+      <div class="column is-8 mb-6 has-text-centered ">
         <span class="has-text-grey-dark" data-config-id="label">Tools</span>
         <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">Look what I know.</h2>
-        <p class="subtitle has-text-grey" data-config-id="desc">OKay I don't "know it" know it but I can make something with it.</p>
+        <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do You know? Hm? Hm?! </p>
       </div>
+    </div>
     
     <div class="columns is-multiline">
 
-      <div class="column is-2 mb-4">
+      <div class="column is-4 mb-4">
+        <h2 class="subtitle has-text-centered">JavaScript</h2>
         <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/slack.svg" alt="" data-config-id="image1">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/javascript.svg" alt="" data-config-id="image2">
         </div>
-      </div>
 
-      <div class="column is-2 mb-4">
+      </div>
+      <div class="column is-4 mb-4">
         <h2 class="subtitle has-text-centered">Svelte</h2>
         <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/icons8-svelte.svg" alt="" data-config-id="image2">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/svelte.svg" alt="" data-config-id="image2">
         </div>
+
       </div>
-      <div class="column is-2 mb-4">
+      <div class="column is-4 mb-4">
+        <h2 class="subtitle has-text-centered">Node js.</h2>
         <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/spotify.svg" alt="" data-config-id="image3">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/nodejs.svg" alt="" data-config-id="image2">
         </div>
+
       </div>
-      <div class="column is-2 mb-4">
-        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/amazon.svg" alt="" data-config-id="image4">
-        </div>
-      </div>
-      <div class="column is-2 mb-4">
-        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/netflix.svg" alt="" data-config-id="image5">
-        </div>
-      </div>
-      <div class="column is-2">
-        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
-          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="bulma-plain-assets/logos/stripe.svg" alt="" data-config-id="image6">
-        </div>
+
+
       </div>
     </div>
 
+    <div class="columns is-multiline">
+
+      <div class="column is-3 mb-4">
+        <h2 class="subtitle has-text-centered">Bulma</h2>
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/bulma.svg" alt="" data-config-id="image2">
+        </div>
+      </div>
+
+      <div class="column is-3 mb-4">
+        <h2 class="subtitle has-text-centered">Eleventy</h2>
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 64px;" src="/assets/11ty.svg" alt="" data-config-id="image2">
+        </div>
+      </div>
+      <div class="column is-3 mb-4">
+        <h2 class="subtitle has-text-centered">WordPress</h2>
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/wordpress.svg" alt="" data-config-id="image2">
+        </div>
+      </div>
+
+
+      <div class="column is-3 ">
+        <h2 class="subtitle has-text-centered">Netlify</h2>
+        <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
+          <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/netlify.svg" alt="" data-config-id="image2">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" >
+  <div class="container" >
+    <div class="is-vcentered columns is-multiline" >
+      <div class="column is-6 is-5-desktop mr-auto" style="background: linear-gradient(45deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),linear-gradient(135deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),radial-gradient(circle, transparent 25%, #f9f9ff  26%),linear-gradient(0deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%);
+        background-size: 2em 2em;
+        background-color: #f9f9ff;
+        opacity: 0.9" >
+        <img class="mx-auto image is-fullwidth" src="/assets/bldue-blob.svg" alt="" data-config-id="image">
+      </div>
+      <div class="column is-6">
+        <div  >
+          <img   class="mb-3 is-block image is-fullwidth" style="height: 64px; width: 64px; "  src="/assets/quote.png" alt="" data-config-id="auto-img-1-1">
+          <h2 class="mb-5 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header" >This guy kicks a**!</h2>
+          <p class="subtitle has-text-grey mb-2 " data-config-id="desc"> Our company, which is a real company, just wanted a simple website and my, my, he really made it. An animal!</p>
+          <p class="subtitle has-text-grey mb-6" data-config-id="desc">I am a real person for sure, for sure and this is not Filip writing for me noooo.. I am writing this. Really.</p>
+          <h4 class="is-size-5 has-text-weight-bold" data-config-id="name">Name A. Person</h4>
+          <p class="has-text-grey-dark" data-config-id="title">CEO & Founder</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline is-centered">
+      <div class="column is-8 has-text-centered">
+        <span class="has-text-grey-dark" data-config-id="label">Contact</span>
+        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">Send a mail. Try calling if You like the sound of beep...beep.</h2>
+        <p class="subtitle has-text-grey mb-5" data-config-id="desc">If you have ever wondered how to develop your brand, this is the place for you. Take a big step forward in growing your business with this great tool.</p>
+ 
+          <div class="column  mb-2">
+            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header1">Mail</h5>
+            <p class="has-text-grey-dark mb-1" data-config-id="desc1">1686, Geraldine Lane</p>
+            </div>
+          <div class="column mb-2">
+            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Phone</h5>
+            <p class="has-text-grey-dark mb-1" data-config-id="desc2">hello@wireframes.org</p>
+        </div>
+          <div class="column ">
+            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Unnecessary info</h5>
+            <p class="has-text-grey-dark mb-1" data-config-id="desc2">Blood type: 0-</p>
+            <p class="has-text-grey-dark mb-1" data-config-id="desc2">Foot size: 42,5 / Right footed</p>
+            <p class="has-text-grey-dark mb-1" data-config-id="desc2"> Glasses: -2.25 dioptres</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
