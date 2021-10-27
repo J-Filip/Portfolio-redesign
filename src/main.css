@@ -1,6 +1,14 @@
 @charset "UTF-8";
-.background--custom {
+.background--custom_button {
   background: linear-gradient(90deg, #ef7af5, #7f41b1, #C2A4F1);
+  background-size: 300% 300%;
+  animation: gradient 3s alternate infinite;
+  top: 0;
+  left: 0;
+}
+
+.background--custom_box {
+  background: linear-gradient(90deg, #7aabf5, #41b1ab, #a4f1de);
   background-size: 300% 300%;
   animation: gradient 3s alternate infinite;
   top: 0;

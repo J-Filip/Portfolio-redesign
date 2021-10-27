@@ -7,34 +7,34 @@ layout: base.njk
   <div class="container">
     <div class="is-vcentered columns is-multiline">
       <div class="column is-6" >
-        <img class="image " style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/download.png" alt="" data-config-id="04_image">
+        <img class="image " style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/blob.png" alt="" data-config-id="04_image">
       </div>
       <div class="column is-5 ml-auto">
-        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">Ooh a visitor.</h2>
-        <p class="subtitle has-text-grey mb-2" data-config-id="desc">I am  <span class="has-text-grey" data-config-id="label">Filip Jugkala</span></p>
-        <p class="subtitle has-text-grey mb-5" data-config-id="desc">And to my left we have a blob. How cool is that!</p>
-        <a class="button is-primary background--custom" href="#" data-config-id="primary-action ">Explore my work</a>
+        <h2 class="mb-2 is-size-2 is-size-1-mobile has-text-weight-bold" data-config-id="header">Ooh a visitor!</h2>
+        <h2 class="mb-4 is-size-1 is-size-1-mobile has-text-weight-bold" data-config-id="header">I am <span class="title has-text-primary is-size-3-mobile is-size-1" data-config-id="label">Filip Jugkala.</span>
+        </h2>
+        <p class="subtitle has-text-grey mb-5" data-config-id="desc">And this purple thing is a blob. How cool is that! Blob blob...</p>
+        <a class="button is-primary background--custom_button" href="#" data-config-id="primary-action ">Explore my work</a>
       </div>
     </div>
   </div>
 </section>
 
-
 <section class="section" >
   <div class="container " >
-   <div class="mb-6 columns is-multiline is-centered" >
+    <div class="mb-6 columns is-multiline is-centered" >
       <div class="column is-8 mb-6 has-text-centered ">
         <span class="has-text-grey-dark" data-config-id="label">Tools</span>
-        <h2 class="mt-2 mb-4 is-size-2 is-size-3-mobile has-text-weight-bold " data-config-id="header">Look what I know.</h2>
+        <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold " data-config-id="header">Look what I know.</h2>
         <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do You know? Hm? Hm?! </p>
       </div>
     </div>
-    
+
     <div class="columns is-multiline">
 
       <div class="column is-4 mb-4">
         <h2 class="subtitle has-text-centered">JavaScript</h2>
-        <div class="box is-flex is-align-items-center has-background-light background--custom" style="height: 128px;">
+        <div class="box is-flex is-align-items-center has-background-light background--custom_box" style="height: 128px;">
           <img class="mx-auto is-block image is-fullwidth img-fluid" style="height: 34px;" src="/assets/javascript.svg" alt="" data-config-id="image2">
         </div>
 
@@ -54,9 +54,7 @@ layout: base.njk
 
       </div>
 
-
-      </div>
-   
+    </div>
 
     <div class="columns is-multiline">
 
@@ -80,7 +78,6 @@ layout: base.njk
         </div>
       </div>
 
-
       <div class="column is-3 ">
         <h2 class="subtitle has-text-centered">Netlify</h2>
         <div class="box is-flex is-align-items-center has-background-light" style="height: 128px;">
@@ -89,35 +86,37 @@ layout: base.njk
 
       </div>
     </div>
- </div>
   </div>
+</div>
 </section>
 
 <section class="section" style="background: radial-gradient(circle, #4f46e5 10%, transparent 11%),radial-gradient(circle at bottom left, #4f46e5 5%, transparent 6%),radial-gradient(circle at bottom right, #4f46e5 5%, transparent 6%),radial-gradient(circle at top left, #4f46e5 5%, transparent 6%),radial-gradient(circle at top right, #4f46e5 5%, transparent 6%);
         background-size: 1em 1em;
         background-color: #f9f9ff;
         opacity: 1">
-  <div class="container" >
-    <div class="mb-6 columns is-multiline is-centered" >
-      <div class="column is-8 has-text-centered">
-        <span class="has-text-grey-dark" data-config-id="label">Featured projects</span>
-        <h2 class="mt-2 mb-4 is-size-2 is-size-3-mobile has-text-weight-bold has-text-primary" data-config-id="header">Wanna see some projects?</h2>
-        {# <p class="subtitle is-size-4 has-text-weight-bold " data-config-id="desc">How many have You made? Pff. I thought so...</p> #}
-      </div>
+<div class="container" >
+  <div class="mb-6 columns is-multiline is-centered" >
+    <div class="column is-8 has-text-centered">
+      <span class="has-text-grey-dark has-text-weight-bold is-size-5" data-config-id="label">Featured</span>
+      <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold has-text-primary" data-config-id="header">Wanna see some projects?</h2>
+      {# <p class="subtitle is-size-4 has-text-weight-bold " data-config-id="desc">How many have You made? Pff. I thought so...</p> #}
     </div>
+  </div>
 
-    <div class="columns is-multiline mb-16" >
+  <div class="columns is-multiline mb-16" >
 
-      {%- for post in collections.post | reverse -%}
+    {%- for post in collections.post | reverse -%}
 
-        {% include 'project-blob.njk' %}
+      {% include 'project-blob.njk' %}
 
-      {%- endfor %}
-    </div>
+    {%- endfor %}
+  </div>
 
-    <div class="has-text-centered"><a class="button is-primary" href="#" data-config-id="primary-action">MORE! MOOOORE!</a></div>
+  <div class="has-text-centered">
+    <a class="button is-primary" href="#" data-config-id="primary-action">MORE! MOOOORE!</a>
+  </div>
 
-    {# <div class="columns is-multiline">
+  {# <div class="columns is-multiline">
       {%- for post in collections.post | reverse -%}
 
         {% include 'project-blob.njk' %}
@@ -126,60 +125,55 @@ layout: base.njk
 
     </div> #}
 
-  </div>
+</div>
 </section>
 
-
 <section class="section" >
-  <div class="container" >
-    <div class="is-vcentered columns is-multiline" >
-      <div class="column is-6 is-5-desktop mr-auto" style="background: linear-gradient(45deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),linear-gradient(135deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),radial-gradient(circle, transparent 25%, #f9f9ff  26%),linear-gradient(0deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%);
+<div class="container" >
+  <div class="is-vcentered columns is-multiline" >
+    <div class="column is-6 is-5-desktop mr-auto" style="background: linear-gradient(45deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),linear-gradient(135deg , #4f46e5 10%,transparent 11%, transparent 89% , #4f46e5 90%),radial-gradient(circle, transparent 25%, #f9f9ff  26%),linear-gradient(0deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #4f46e5 45%, #4f46e5 55%, transparent 56%);
         background-size: 2em 2em;
         background-color: #f9f9ff;
         opacity: 0.9" >
-        <img class="mx-auto image is-fullwidth" src="/assets/bldue-blob.svg" alt="" data-config-id="image">
-      </div>
-      <div class="column is-6">
-        <div  >
-          <img   class="mb-3 is-block image is-fullwidth" style="height: 64px; width: 64px; "  src="/assets/quote.png" alt="" data-config-id="auto-img-1-1">
-          <h2 class="mb-5 is-size-2 is-size-3-mobile has-text-weight-bold has-text-primary" data-config-id="header" >This guy kicks a**!</h2>
-          <p class="subtitle has-text-grey mb-2 " data-config-id="desc"> Our company, which is a real company, just wanted a simple website and my, my, he really made it. An animal!</p>
-          <p class="subtitle has-text-grey mb-6" data-config-id="desc">I am a real person for sure, for sure and this is not Filip writing for me noooo.. I am writing this. Really.</p>
-          <h4 class="is-size-5 has-text-weight-bold" data-config-id="name">Name A. Person</h4>
-          <p class="has-text-grey-dark" data-config-id="title">CEO & Founder</p>
-        </div>
+      <img class="mx-auto image is-fullwidth" src="/assets/bldue-blob.svg" alt="" data-config-id="image">
+    </div>
+    <div class="column is-6">
+      <div  >
+        <img   class="mb-3 is-block image is-fullwidth" style="height: 64px; width: 64px; "  src="/assets/quote.png" alt="" data-config-id="auto-img-1-1">
+        <h2 class="mb-5 is-size-2 is-size-1-mobile has-text-weight-bold has-text-primary" data-config-id="header" >This guy kicks a**!</h2>
+        <p class="subtitle has-text-grey mb-2 " data-config-id="desc"> Our company, which is a real company, just wanted a simple website and my, my, he really made it. An animal!</p>
+        <p class="subtitle has-text-grey mb-6" data-config-id="desc">I am a real person for sure, for sure and this is not Filip writing for me noooo.. I am writing this. Really.</p>
+        <h4 class="is-size-5 has-text-weight-bold" data-config-id="name">Name A. Person</h4>
+        <p class="has-text-grey-dark" data-config-id="title">CEO & Founder</p>
       </div>
     </div>
   </div>
+</div>
 </section>
 
+<section class="section has-background-primary-light">
+<div class="container">
+  <div class="columns is-multiline is-centered">
+    <div class="column is-8 has-text-centered">
+      <span class="has-text-grey-dark" data-config-id="label">Contact</span>
+      <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header"> Be old-school, send an SMS. I love a good SMS.</h2>
+      <p class="subtitle has-text-grey mb-5" data-config-id="desc">... or send an email. Try calling if You like the sound of beeping.</p>
 
-
-
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-multiline is-centered">
-      <div class="column is-8 has-text-centered">
-        <span class="has-text-grey-dark" data-config-id="label">Contact</span>
-        <h2 class="mt-2 mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">Send a mail. Try calling if You like the sound of beep...beep.</h2>
-        <p class="subtitle has-text-grey mb-5" data-config-id="desc">If you have ever wondered how to develop your brand, this is the place for you. Take a big step forward in growing your business with this great tool.</p>
- 
-          <div class="column  mb-2">
-            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header1">Mail</h5>
-            <p class="has-text-grey-dark mb-1" data-config-id="desc1">1686, Geraldine Lane</p>
-            </div>
-          <div class="column mb-2">
-            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Phone</h5>
-            <p class="has-text-grey-dark mb-1" data-config-id="desc2">hello@wireframes.org</p>
-        </div>
-          <div class="column ">
-            <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Unnecessary info</h5>
-            <p class="has-text-grey-dark mb-1" data-config-id="desc2">Blood type: 0-</p>
-            <p class="has-text-grey-dark mb-1" data-config-id="desc2">Foot size: 42,5 / Right footed</p>
-            <p class="has-text-grey-dark mb-1" data-config-id="desc2"> Glasses: -2.25 dioptres</p>
-        </div>
+      <div class="column  mb-1">
+        <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header1">Mail</h5>
+        <p class="has-text-grey-dark mb-1" data-config-id="desc1">1686, Geraldine Lane</p>
+      </div>
+      <div class="column mb-2">
+        <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Phone</h5>
+        <p class="has-text-grey-dark mb-1" data-config-id="desc2">hello@wireframes.org</p>
+      </div>
+      <div class="column ">
+        <h5 class="mt-3 is-size-5 has-text-weight-bold" data-config-id="header2">Unnecessary info</h5>
+        <p class="has-text-grey-dark mb-1" data-config-id="desc2">Blood type: 0-</p>
+        <p class="has-text-grey-dark mb-1" data-config-id="desc2">Foot size: 42,5 / Right footed</p>
+        <p class="has-text-grey-dark mb-1" data-config-id="desc2"> Glasses: -2.25 dioptres</p>
       </div>
     </div>
   </div>
+</div>
 </section>
