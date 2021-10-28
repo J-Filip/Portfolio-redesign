@@ -105,7 +105,7 @@ layout: base.njk
 
   <div class="columns is-multiline mb-16" >
 
-    {%- for post in collections.post | reverse -%}
+    {%- for post in collections.featured | reverse -%}
 
       {% include 'project-blob.njk' %}
 

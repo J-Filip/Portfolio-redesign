@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      CN Helper</title>
+      Cool project</title>
     <link rel="stylesheet" href="/main.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   </head>
 
   <body>
@@ -46,7 +48,7 @@
         <div class="columns is-multiline is-centered">
             <div class="column is-8 is-7-desktop">
                 <h2 class="mb-5 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="title">
-                    CN Helper</h2>
+                    Cool project</h2>
 
                     <h3>What is MejloMlat you ask? It's a GUI for mail composing and web scraping.</h3>
 <p><strong>MAIL COMPOSER</strong>: As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this.</p>
@@ -100,5 +102,16 @@
 </footer>
 </footer>
 
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>

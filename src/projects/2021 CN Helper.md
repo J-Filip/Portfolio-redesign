@@ -1,6 +1,5 @@
 ---
 title: CN Helper
-author: Filip Jugkala
 date: 2021-02-01
 tags: ['post']
 image: /assets/green-blob.svg

@@ -1,6 +1,5 @@
 ---
 title: Cool project
-author: Filip Jugkala
 date: 2021-04-21
 tags: ['post']
 image: /assets/pink-blob.svg

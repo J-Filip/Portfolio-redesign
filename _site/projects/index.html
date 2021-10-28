@@ -7,6 +7,8 @@
     <title>
       Blooooog gloooog</title>
     <link rel="stylesheet" href="/main.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   </head>
 
   <body>
@@ -56,11 +58,11 @@
     <div class="box-content">
       <div class="is-relative mb-6" style="height: 216px;">
         <small class="is-absolute is-top-o is-right-0 mt-4 mr-4 tag is-dark" style="z-index: 10;" data-config-id="label1">PROJECT</small>
-        <img class="image is-fullwidth is-cover is-rounded" style="height: 100%;" src="/assets/green-blob.svg "alt="" data-config-id="image1">
+        <img class="image is-fullwidth is-cover is-rounded" style="height: 100%;" src="/assets/pink-blob.svg "alt="" data-config-id="image1">
       </div>
-      <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">1 Feb 2021</span>
-      <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">CN Helper</h2>
-      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">Internal knowledge base/web. I was tired of using old internal web. Then I got tired of myself complaining about it. WordPress came perfectly.
+      <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">21 Apr 2021</span>
+      <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">Cool project</h2>
+      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this.
       <a class="is-size-6" href="/projects/2021 Cool project/"  data-config-id="action">Read more</a>
       </p>
     </div>
@@ -137,5 +139,16 @@
 </footer>
 </footer>
 
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>

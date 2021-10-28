@@ -1,6 +1,5 @@
 ---
 title: My First Project
-author: Filip Jugkala
 date: 2020-01-01
 tags: ['post', 'featured', 'ahk']
 image: /assets/blue-blob.svg
