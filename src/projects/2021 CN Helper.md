@@ -1,10 +1,9 @@
 ---
-title: CN Helper
-date: 2021-02-01
-tags: ['post']
-image: /assets/green-blob.svg
-imageAlt: 
-description: Internal knowledge base/web. I was tired of using old internal web. Then I got tired of myself complaining about it. WordPress came perfectly.
+title: bb
+date: 2020-11-01
+tags: ['post', 'featured', 'ahk']
+image: /assets/blue-blob.svg
+description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
 ---
 
 ### What is MejloMlat you ask? It's a GUI for mail composing and web scraping.

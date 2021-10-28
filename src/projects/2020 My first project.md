@@ -1,12 +1,11 @@
 ---
 title: My First Project
-date: 2020-01-01
+date: 2020-01-14
 tags: ['post', 'featured', 'ahk']
 image: /assets/blue-blob.svg
-imageAlt: 
 description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
 ---
-What is MejloMlat you ask? It's a GUI for mail composing and web scraping.
+## What is MejloMlat you ask? It's a GUI for mail composing and web scraping.
 
 MAIL COMPOSER: As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this.
 
