@@ -7,7 +7,7 @@
     <title>
       My First Project</title>
     <link rel="stylesheet" href="/main.css">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   </head>
 
@@ -103,6 +103,7 @@
 </footer>
 
 <script>
+
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
