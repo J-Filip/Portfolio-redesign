@@ -1,19 +1,18 @@
 backend:
   name: git-gateway
   branch: master
-  media_folder: "_site/assets/projects"
-  public_folder: "/assets/projects"
-  collections:
-    - name: "projects"
-      label: "Projects"
-      folder: "src/projects"
-      create: true
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-      fields: 
-        - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["post"]}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Featured Image", name: "thumbnail", widget: "image"}
-        - {label: "Body", name: "body", widget: "markdown"}
+media_folder: "_site/assets/projects"
+public_folder: "/assets/projects"
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
