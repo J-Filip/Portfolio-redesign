@@ -7,7 +7,7 @@
     <title>
       Cool project</title>
     <link rel="stylesheet" href="/main.css">
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   </head>
 
@@ -69,7 +69,7 @@
 
     </main>
 
-<footer>
+    <footer>
       
 <footer class="section has-background-dark">
   <div class="container pb-5 has-text-centered" >
@@ -100,19 +100,23 @@
     
   </div>
 </footer>
-</footer>
+    </footer>
 
-<script>
+    <script>
 
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
+      if (window.netlifyIdentity) {
+        window
+          .netlifyIdentity
+          .on("init", user => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
       }
-    });
-  }
-</script>
+    </script>
   </body>
 </html>

@@ -8,12 +8,12 @@ backend:
       label: "Projects"
       folder: "src/projects"
       create: true
-      slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       fields: 
         - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Description", name: "description", widget: "string"}
-        - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["post"]}
+        - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["post"]}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
