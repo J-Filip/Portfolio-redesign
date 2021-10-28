@@ -1,11 +1,9 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-
+  branch: master
   publish_mode: editorial_workflow
-  media_folder: "_site/assets/projects" # Media files will be stored in the repo under images/uploads
-  public_folder: "/assets/projects" # The src attribute for uploaded media will begin with /images/uploads
-
+  media_folder: "_site/assets/projects"
+  public_folder: "/assets/projects"
   collections:
     - name: "projects"
       label: "Projects"
