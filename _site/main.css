@@ -8,7 +8,7 @@
 }
 
 .background--custom_box {
-  background: linear-gradient(90deg, #7aabf5, #41b1ab, #a4f1de);
+  background: linear-gradient(90deg, #63B1D1, #e7c52a, #16d444);
   background-size: 300% 300%;
   animation: gradient 3s alternate infinite;
   top: 0;
@@ -10314,7 +10314,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 @media screen and (min-width: 1024px) {
   .section {
-    padding: 3rem 3rem;
+    padding: 7rem 3rem;
   }
   .section.is-medium {
     padding: 9rem 4.5rem;

@@ -35,15 +35,12 @@ $primary: $purple;
     // height: 10%;
     // width: 70%;
   }
-.background--custom_box {
-    background: linear-gradient(90deg, #7aabf5, #41b1ab, #a4f1de);
+  .background--custom_box {
+    background: linear-gradient(90deg, #63B1D1, #e7c52a, #16d444);
     background-size: 300% 300%;
     animation: gradient 3s alternate infinite;
-    // position: absolute;
     top: 0;
     left: 0;
-    // height: 10%;
-    // width: 70%;
   }
   @keyframes gradient {
     0% {
