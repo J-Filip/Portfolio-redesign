@@ -1,7 +1,13 @@
 ---
-title: aa
+title: TESTING PROJECT
 date: 2021-01-01
-tags: ['post', 'featured', 'ahk']
+tags:
+  - post
+  - featured
+  - ahk
+logos:
+  - /assets/projects/linkedin.svg
+  - /assets/projects/javascript.svg
 image: /assets/blue-blob.svg
 logos: 
 - {title: 'Svelte', image: '/assets/svelte.svg'}
