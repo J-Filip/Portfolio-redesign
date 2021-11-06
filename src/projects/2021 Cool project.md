@@ -1,5 +1,5 @@
 ---
-title: TESTING PROJECT
+title: TEST
 date: 2021-01-01
 tags:
   - post
@@ -11,6 +11,8 @@ logos:
     logo-title: JS
     src: /assets/projects/javascript.svg
     logo_title: JS
+  - logo_title: LINK
+    src: /assets/projects/linkedin.svg
 image: /assets/blue-blob.svg
 description: My first solo project. GUI mail composer and webscraper using
   AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
