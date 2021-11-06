@@ -18,16 +18,13 @@ layout: base.njk
                             <img src= {{ post.src }} style="height: 34px;" alt="">
                         </div>
                         <div class="ml-3">
-                            <h5 class="is-size-5 has-text-weight-normal"> {{ post.logo-title }}
+                            <h5 class="is-size-5 has-text-weight-normal"> {{ post.logo_title }}
                             </h5>
                         </div>
                     </div>
                 {%- endfor %}
 
             </div>
-                    {%- for post in tags -%}
-                  <p> {{ post }}</p>
-                {%- endfor %}
 
         </div>
     </section>
