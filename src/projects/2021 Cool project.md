@@ -10,6 +10,7 @@ logos:
     image: /assets/svelte.svg
     logo-title: JS
     src: /assets/projects/javascript.svg
+    logo_title: JS
 image: /assets/blue-blob.svg
 description: My first solo project. GUI mail composer and webscraper using
   AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
