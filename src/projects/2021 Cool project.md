@@ -1,12 +1,16 @@
 ---
 title: aa
 date: 2021-01-01
-tags: ['post', 'featured', 'ahk']
+tags:
+  - post
+  - featured
+  - ahk
+logos:
+  - /assets/projects/linkedin.svg
+  - /assets/projects/javascript.svg
 image: /assets/blue-blob.svg
-logos: 
-- {title: 'Svelte', image: '/assets/svelte.svg'}
-- {title: 'WordPress', image: '/assets/wordpress.svg'}
-description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
+description: My first solo project. GUI mail composer and webscraper using
+  AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
 ---
 
 ### What is MejloMlat you ask? It's a GUI for mail composing and web scraping.
