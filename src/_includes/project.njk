@@ -25,6 +25,10 @@ layout: base.njk
                 {%- endfor %}
 
             </div>
+                    {%- for post in tags -%}
+                  <p> {{ post }}</p>
+                {%- endfor %}
+
         </div>
     </section>
     <section class="section">
