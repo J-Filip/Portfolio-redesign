@@ -3,6 +3,9 @@ title: aa
 date: 2021-01-01
 tags: ['post', 'featured', 'ahk']
 image: /assets/blue-blob.svg
+logos: 
+- {title: 'Svelte', image: '/assets/svelte.svg'}
+- {title: 'WordPress', image: '/assets/wordpress.svg'}
 description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
 ---
 

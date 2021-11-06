@@ -2,20 +2,66 @@
 layout: base.njk
 ---
 
+<section class="section is-relative">
+    <div class="container">
+        <div class="columns is-multiline is-vcentered">
+            <div class="column is-6 is-5-desktop mr-auto mb-5">
+                <img class="image is-fullwidth" src="{{ image }}" alt="">
+            </div>
+            <div class="column is-6 is-5-desktop">
+                <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">{{ title }}</h2>
+                <p class="subtitle has-text-grey mb-5">{{ description }}</p>
+
+                {%- for post in logos -%}
+                    <div class="mb-4 is-flex">
+                        <div class="has-text-grey-dark">
+                            <img src= {{ post.image }} style="height: 34px;" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h5 class="is-size-5 has-text-weight-normal"> {{ post.title }}
+                            </h5>
+                        </div>
+                    </div>
+                {%- endfor %}
+
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline is-centered">
+                <div class="column is-8 is-6-desktop">
+                    <h2 class="mb-5 is-size-1 is-size-3-mobile has-text-weight-bold">When I was a developer, I often had a hundred questions when</h2>
+
+                    {{ content | safe}}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {# 
 <section class="section">
     <div class="container content">
         <div class="columns is-multiline is-centered">
             <div class="column is-8 is-7-desktop">
-        <div class="mb-2">
-          <img class="image " src="{{ image }}" alt="" data-config-id="image">
-        </div>
+                <div class="mb-2">
+                    <img class="image " src="{{ image }}" alt="" data-config-id="image">
+                </div>
                 <h2 class="mb-5 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="title">
                     {{ title }}</h2>
+                    <ul>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                    </ul>
 
-                    {{ content | safe}}
+                {{ content | safe}}
 
+            </div>
+            <div class="column is-8 is-7-desktop">
+                <h2>title</h2>
             </div>
         </div>
     </div>
-</section>
-
+</section> #}
