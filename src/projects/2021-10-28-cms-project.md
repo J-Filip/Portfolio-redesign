@@ -4,7 +4,7 @@ date: 2021-10-28T22:52:48.587Z
 tags:
   - post
   - featured
-image: /assets/projects/pink-blob.svg
+image: /assets/logo.png
 description: Find out Your geolocation and get weather and air quality data for
   the location. You can also see where others have checked-in on the map.
 ---
