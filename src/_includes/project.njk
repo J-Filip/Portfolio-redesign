@@ -10,7 +10,6 @@ layout: base.njk
             </div>
             <div class="column is-6 is-5-desktop">
                 <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">{{ title }}</h2>
-                <p class="subtitle has-text-grey mb-5">{{ description }}</p>
 
                 {%- for post in logos -%}
                     <div class="mb-4 is-flex">
@@ -32,7 +31,9 @@ layout: base.njk
         <div class="container">
             <div class="columns is-multiline is-centered">
                 <div class="column is-8 is-6-desktop">
-                    <h2 class="mb-5 is-size-1 is-size-3-mobile has-text-weight-bold">When I was a developer, I often had a hundred questions when</h2>
+                    <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
+                     {{ description }}
+                    </h2>
 
                     {{ content | safe}}
 
