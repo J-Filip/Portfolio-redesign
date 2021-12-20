@@ -1,19 +1,40 @@
 ---
-title: bb
-date: 2020-11-01
-tags: ['post', 'featured', 'ahk']
-image: /assets/blue-blob.svg
-description: My first solo project. GUI mail composer and webscraper using AutoHotkey mixed with JavaScript. Made for job purposes. Looks ancient.
+title: The Second One
+date: 2020-11-30T23:00:00.000Z
+tags:
+  - post
+  - ahk
+  - wordpress
+logos:
+  - logo_title: WordPress
+    src: /assets/projects/wordpress.svg
+image: /assets/projects/red-flame.png
+description: Internal knowledge base/web. I was tired of using old internal web.
+  Then I got tired of myself complaining about it. WordPress came perfectly.
 ---
 
-### What is MejloMlat you ask? It's a GUI for mail composing and web scraping.
 
-__MAIL COMPOSER__: As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this.
+__WHY?__
+We use INTERNAL WEB for knowledge base , archive, contacts, mailing list administration etc. Agents need a quick way to get information from the knowledge base so they could provide support over the phone. My idea was to create a new solution that could provide agents a faster and easier access to our data.  
 
-My idea was to build a mail composer with all the most common answers built in and ready to compose into final mail. This saves time for agents especially since they don't depend on their own files when changing workstation. It also removes the need for constant copy-pasting and ensures no typoes.
 
-__WEB SCRAPER__: We use data from diffrent system and apps and we often have to filter it to get the information we want. Then we have to perform certain tasks depending on the status of the data collected. This includes monitoring a lot of open tabs and windows waiting for changes.
 
-Why not do the searching and monitoring automatically if we know how the data is structured? So I came up with a web scraper that searches for specific data and presents it in a more useful way. It injects JavaScript code via chrome debug mode and performs actions or returns wanted data.
+__WHAT?__
+I suggested we transfer our team's "part" of the internal web to another site. We needed to find a solution that could handle new important features: 
+- a search option which would provide a huge help in searching for the right answer in our knowledge base.
+- proper hierarchical categorization in the knowledge base.
+Also, it needed to keep some of the old features like mail notifications on new entries and updates and roles and permissions managment.
 
-As I mentioned, this was my first project and it's still in development. If other agents show interest I intend to add more answers in the mail composer part and communication with more apps. Also, I would like to write it another languge and get it online for easier access.
+
+\
+\
+__HOW?__
+I started with Google pages but realized I would need much more power. We used Wordpress beacuse I had some prior experience with it, plus it was used for some other projects so we got it set up quickly. I was feeling boxed in by the theme provided so I installed Elementor and designed everything from the bottom up. Most of my time was spent building a knowledge base with a search option using a great plugin. 
+---
+__CONCLUSION__
+This was my first project ~~and it's still in development.~~ If other agents show interest I intend to add more answers in the mail composer part and communication with more apps. Also, I would like to write it another languge and get it online for easier access.
+\
+\
+**_UPDATE 2021_** - NO, NO's - lot of data was hardcoded, all changes were not easily implemented, it was not tested on diffrent machines.
+
+I started to learn JavaScript so I created a Chrome Extension instead, for better user and developer experience!
