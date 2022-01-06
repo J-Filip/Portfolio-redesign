@@ -4,11 +4,13 @@ layout: base.njk
 
 <section class="section is-relative py-4">
     <div class="container">
+
         <div class="columns is-multiline is-vcentered">
             <div class="column is-6 is-5-desktop mr-auto mb-5">
                 <img class="image is-fullwidth" src="{{ image }}" alt="">
             </div>
             <div class="column is-6 is-5-desktop">
+                <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">{{ date | postDate }}</span>
                 <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">{{ title }}</h2>
 
                 {%- for post in logos -%}
@@ -17,10 +19,13 @@ layout: base.njk
                             <img src= {{ post.src }} style="height: 34px;" alt="">
                         </div>
                         <div class="ml-3">
-                            <h5 class="is-size-5 has-text-weight-normal"> {{ post.logo_title }}
+                            <h5 class="is-size-5 has-text-weight-normal">
+                                {{ post.logo_title }}
                             </h5>
                         </div>
+
                     </div>
+
                 {%- endfor %}
 
             </div>
@@ -30,15 +35,34 @@ layout: base.njk
     <section class="section py-4">
         <div class="container">
             <div class="columns is-multiline is-centered">
-                <div class="column is-8 is-6-desktop">
+                <div class="column is-8 is-7-desktop">
                     <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
-                     {{ description }}
+                        {{ description }}
                     </h2>
 
+                    {% if image2 %}
+                        <figure class="image is-800x800">
+                            <img class="image " src="{{ image2 }}" alt="">
+                            <figcaption> <strong> {{ figcaption }} </strong> </figcaption>
+                        </figure>
+                    {% endif %}
+
+                    {% if video %}
+                        <div class='box'>
+                            {# add if statement to show video if video exists #}
+                            <video width="1024" height="768" autoplay muted controls loop>
+                                <source src="{{ video }}" type="video/mp4">Your browser does not support the video tag.</video>
+
+                        </div>
+                    {% endif %}
                     {{ content | safe}}
 
+                    <div class='mt-5  has-text-centered'>
+                        <a class="button is-info " href="#" data-config-id="primary-action "> ⬅️  back to projects</a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 

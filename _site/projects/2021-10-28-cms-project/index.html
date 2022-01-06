@@ -29,12 +29,11 @@
     <div class="navbar-menu">
       <div class="navbar-start">
       <a class="navbar-item" href="/" data-config-id="link2">Home</a>
-      <a class="navbar-item" href="/about" data-config-id="link1">About</a>
-      <a class="navbar-item" href="/projects" data-config-id="link1">Projects</a>
+      <a class="navbar-item" href="/projects" data-config-id="link1">Blog</a>
       </div>
       <div class="navbar-item navbar-end">
         <div class="buttons">
-        <a class="button is-primary" href="#" data-config-id="primary-action">Sign Up</a></div>
+        <a class="button is-primary" href="#" data-config-id="primary-action">Contact</a></div>
       </div>
     </div>
   </div>
@@ -45,12 +44,15 @@
       
 <section class="section is-relative py-4">
     <div class="container">
+
         <div class="columns is-multiline is-vcentered">
             <div class="column is-6 is-5-desktop mr-auto mb-5">
                 <img class="image is-fullwidth" src="/assets/logo.png" alt="">
             </div>
             <div class="column is-6 is-5-desktop">
+            <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">29 Oct 2021</span>
                 <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">CMS Project</h2>
+                
 
             </div>
 
@@ -59,21 +61,27 @@
     <section class="section py-4">
         <div class="container">
             <div class="columns is-multiline is-centered">
-                <div class="column is-8 is-6-desktop">
+                <div class="column is-8 is-7-desktop">
                     <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
-                     Find out Your geolocation and get weather and air quality data for the location. You can also see where others have checked-in on the map.
+                        Find out Your geolocation and get weather and air quality data for the location. You can also see where others have checked-in on the map.
                     </h2>
+                    <div class='box'>
+                        <img class="image " src="" alt="">
 
+                    </div>
                     <p>07/2021 UPDATE - added PostgreSQL database</p>
 <p>Modified project based on a tutorial by @joeyklee. My <strong>first dive into Node.js and backend development.</strong> The point wasn't to make another weather app but to learn to deal with APIs and fetching data.</p>
 <p>I set up a server using <strong>express framework</strong> and used fetch API to get data from two APIs - weather and air quality. One of them required API key so I learned how to store private API keys using environment variables. Also, I deployed my web app to Heroku cloud platform with GitHub integration.</p>
 <p>What's really happening behind all this? When app is loaded, user is asked for permission to use his geolocation. If geolocation available, user can type in his nickname and press Check-in button that sends POST request to server with variables latitude and longitude. Server fetches weather and airquality APIs with user's coordinates and returns a response to the client. We make DOM changes with this data and send another POST request to server with data to be stored in the database. When All Logs is pressed, client sends GET request to server asking for the last 20 rows from the database. For each entry from database we create a DIV element and add a marker with a pop-up to a Leaflet map. When Croatia logs is pressed, same process is happening with postgres database but in this case we SEND user's country as route parameter to an endpoint, where we return only database rows where Country value is HR.</p>
 
-
+        <div class='mt-5  has-text-centered'>
+                <a class="button is-info " href="#" data-config-id="primary-action "> ⬅️  back to projects</a>
+        </div>
                 </div>
             </div>
+            
         </div>
-    </section>
+    </section> 
 
     
     </main>
@@ -101,7 +109,7 @@
   </div>
   <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
   <div class="container">
-    <p class="has-text-centered" data-config-id="copy">All rights reserved | Filip Jugkala 2021
+    <p class="has-text-centered" data-config-id="copy">All rights reserved | Filip Jugkala 2021.
     </p>
     
     </p>

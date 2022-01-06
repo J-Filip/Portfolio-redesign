@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      CN Helper</title>
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar py-4">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#" data-config-id="brand">
+        <img class="image" alt="" >
+      </a>
+      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+      <a class="navbar-item" href="/" data-config-id="link2">Home</a>
+      <a class="navbar-item" href="/projects" data-config-id="link1">Blog</a>
+      </div>
+      <div class="navbar-item navbar-end">
+        <div class="buttons">
+        <a class="button is-primary" href="#" data-config-id="primary-action">Contact</a></div>
+      </div>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <main>
+      
+<section class="section is-relative py-4">
+    <div class="container">
+
+        <div class="columns is-multiline is-vcentered">
+            <div class="column is-6 is-5-desktop mr-auto mb-5">
+                <img class="image is-fullwidth" src="/assets/logo.png" alt="">
+            </div>
+            <div class="column is-6 is-5-desktop">
+                <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">Invalid DateTime</span>
+                <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">CN Helper</h2>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section py-4">
+        <div class="container">
+            <div class="columns is-multiline is-centered">
+                <div class="column is-8 is-7-desktop">
+                    <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
+                        A simple app for boosting productivity for Helpdesk agents. It provides better UX with visual cues, autocomplete options and school search via pop-up.
+                    </h2>
+
+                    
+                        <figure class="image is-800x800">
+                            <img class="image " src="/assets/cn-helper-stats.png" alt="">
+                            <figcaption> <strong> Fig.1 - Stats show that August 25 holds the record with 83 users. Extension is actively used with some dips in usage during the summer. </strong> </figcaption>
+                        </figure>
+                    
+
+                    
+                    <hr>
+<p><strong>WHY?</strong>
+After 2 years of working as a Helpdesk agent, I started to notice a lot of tedious and unproductive steps that agents did every day during their shift. This included clicking, scrolling, opening new tabs and other. So I wanted to eliminate that.
+<br>
+<br>
+<strong>WHAT?</strong>
+While my first app [MejloMlat] tried something simmilar, I needed to find a way to make it more accessible so agents don't have to install it every time they change computers. Knowing all of us are logged in using our Google accounts, I decided to try and build a new Chrome extension that can be installed in only a few clicks.
+<br>
+<br>
+<strong>HOW?</strong>
+The basic principle is this: script is executed depending on the curently opened page in the browser. Event listeners are used to react to agent's predictable actions. It mostly uses DOM manipulation to change the look of the page by inserting extra elements or presenting it in a more user-friendly way.
+Most common features: autofill, extra dropdowns, filters, copy buttons...
+It's mostly written in vanilla JavaScript while there are parts written in up-and-coming Svelte. (Tokenator and extension's pop-up)</p>
+<hr>
+<p><strong>CONCLUSION</strong>
+The extension is now used by majority of Helpdesk (Fig.1), and agents give valuable feedback that helps me improve the extension. My goal is to make it even more robust by integrating it with more apps and to provide richer features. The project has 50 closed issues and over 10 releases.
+<br>
+<br>
+<strong><em>UPDATE 10/2021</em></strong> -  Most notable upgrade is called &quot;Tokenator&quot; (read more about it 🔗).</p>
+
+
+                    <div class='mt-5  has-text-centered'>
+                        <a class="button is-info " href="#" data-config-id="primary-action "> ⬅️  back to projects</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    </main>
+
+    <footer>
+      
+<footer class="section pb-5 has-background-dark">
+  <div class="container pb-5 has-text-centered" >
+    <a class="mx-auto mb-4 is-inline-block" href="#" data-config-id="brand">
+      <img class="image" src="/assets/logo.png" alt="" width="96px">
+    </a>
+    <ul class="mb-4 is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center">
+      <li><a class="button is-white" href="#" data-config-id="01_link1">Home</a></li>
+      <li><a class="button is-white" href="#" data-config-id="01_link2">About</a></li>
+      <li><a class="button is-white" href="#" data-config-id="01_link2">Projects</a></li>
+    </ul>
+    <div>
+      <a class="mr-4 is-inline-block" href="#" >
+        <img src="/assets/github.svg" data-config-id="auto-img-1-3" style="height: 34px;">
+      </a>
+      <a class="is-inline-block" href="#">
+        <img src="/assets/linkedin.svg" data-config-id="auto-img-5-3" style="height: 34px;">
+      </a>
+    </div>
+  </div>
+  <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+  <div class="container">
+    <p class="has-text-centered" data-config-id="copy">All rights reserved | Filip Jugkala 2022.
+    </p>
+    
+    </p>
+    
+    
+  </div>
+</footer>
+    </footer>
+
+    <script>
+
+      if (window.netlifyIdentity) {
+        window
+          .netlifyIdentity
+          .on("init", user => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
+      }
+    </script>
+  </body>
+</html>
