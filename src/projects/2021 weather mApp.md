@@ -2,6 +2,8 @@
 title: Weather mApp
 date: 
 tags: ['post', 'featured', 'ahk']
+imageBlob: /assets/snow.png
+rotate: rotate(60)
 image: /assets/blue-blob.svg
 video: /assets/weather_mapp.mp4
 description: Find out Your geolocation and get weather and air quality data for the location. You can also see where others have checked-in on the map.

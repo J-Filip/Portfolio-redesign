@@ -4,7 +4,8 @@ date:
 tags:
   - post
   - featured
-image: /assets/logo.png
+rotate: rotate(-118)
+imageBlob: /assets/blurry.png
 image2: /assets/cn-helper-stats.png
 figcaption: Fig.1 - Stats show that August 25 holds the record with 83 users. Extension is actively used with some dips in usage during the summer.
 description: A simple app for boosting productivity for Helpdesk agents. It provides better UX with visual cues, autocomplete options and school search via pop-up.

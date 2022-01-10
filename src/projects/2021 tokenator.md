@@ -1,5 +1,5 @@
 ---
-title: Tokenator
+title: CN Helper - Tokenator
 date: 2021-10
 tags:
   - post
@@ -13,6 +13,7 @@ logos:
     logo_title: JavaScript
   - logo_title: LinkedIn
     src: /assets/projects/linkedin.svg
+imageBlob: /assets/cn2.png
 image: /assets/blue-blob.svg
 video: /assets/tokenator.mkv
 description: An add-on for CN Helper chrome extension. It spits out canned responses. Very useful for generating responses that follow the same template.  
