@@ -1,14 +1,15 @@
 ---
 title: Portfolio redesigned
-date: 
+date: 2022-01-07T23:00:00.000Z
 tags:
   - post
   - featured
 rotate: rotate(0)
 imageBlob: /assets/heads.png
 image: /assets/logo.png
-description: Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a JAMstack webiste.   
-
+description: Entering 2022. with a new portfolio. My first web portfolio 2021.
+  was a basic b***h site and updating it got tedious. This year I wanted
+  something cooler - a JAMstack webiste.
 ---
 __WHY?__
 - While it wasn't all that bad my last web portfolio was all html and css. I followed a YouTube tutorial (changed a lot of things of course) and build it so I had some place to show my projects. As more and more projects got finished or updated, I realized this wasn't the developer experience I wanted. I had to rebuild it in a way I could update the content with ease.  
