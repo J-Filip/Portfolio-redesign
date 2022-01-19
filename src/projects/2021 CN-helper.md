@@ -1,15 +1,21 @@
 ---
+figcaption: Fig.1 - Stats show that August 25 holds the record with 83 users.
+  Extension is actively used with some dips in usage during the summer.
 title: CN Helper
-date: 
+date: 2021-05-05T22:00:00.000Z
 tags:
   - post
   - featured
-rotate: rotate(0)
-imageBlob: /assets/cn1.png
+logos:
+  - src: /assets/projects/javascript.svg
+    logo_title: JavaScript
 image2: /assets/cn-helper-stats.png
-figcaption: Fig.1 - Stats show that August 25 holds the record with 83 users. Extension is actively used with some dips in usage during the summer.
-description: A simple app for boosting productivity for Helpdesk agents. It provides better UX with visual cues, autocomplete options and school search via pop-up.
-
+imageBlob: /assets/cn1.png
+image: /assets/projects/blue-flame.png
+rotate: rotate(0)
+description: A simple app for boosting productivity for Helpdesk agents. It
+  provides better UX with visual cues, autocomplete options and school search
+  via pop-up.
 ---
 
 ---
