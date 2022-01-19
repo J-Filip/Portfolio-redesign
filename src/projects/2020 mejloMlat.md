@@ -1,22 +1,23 @@
 ---
 title: MejloMlat
-date: 2020-11-20 
+date: 2021-02-19T23:00:00.000Z
 tags:
   - post
-  - ahk
-  - javascript
+  - featured
 logos:
   - src: /assets/projects/ahk.svg
     logo_title: AutoHotkey
   - src: /assets/projects/javascript.svg
     logo_title: JavaScript
-rotate: rotate(41)
 imageBlob: /assets/steps.png
 video: /assets/mejloMlat.mp4
+image: /assets/projects/blue-flame.png
+rotate: rotate(41)
+description: My first solo project. GUI mail composer & webscraper. Made for job
+  purposes. Looks ancient.
 list:
   - a
   - b
-description: My first solo project. GUI mail composer & webscraper. Made for job purposes. Looks ancient.
 ---
 __MAIL COMPOSER__
 
