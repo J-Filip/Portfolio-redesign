@@ -1,12 +1,20 @@
 ---
 title: Small business website
-date: 
-tags: ['post', 'featured', 'ahk']
-rotate: rotate(30)
+date: 2021-10-08T22:00:00.000Z
+tags:
+  - post
+logos:
+  - logo_title: Netlify
+    src: /assets/projects/netlify.svg
+  - logo_title: Shuffle
+    src: /assets/projects/shuffle.png
 imageBlob: /assets/city.png
-image: /assets/blue-blob.svg
-description: First time working with a client. A simple website for a small construction business. They wanted a web presence - I wanted to try out something new. 
 video: /assets/small-business.mp4
+image: /assets/blue-blob.svg
+rotate: rotate(30)
+description: First time working with a client. A simple website for a small
+  construction business. They wanted a web presence - I wanted to try out
+  something new.
 ---
 
 **🔗 [Live site](https://jelen-gradnja.com/index.html)**
