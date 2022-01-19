@@ -1,16 +1,23 @@
 ---
-title: Portfolio redesign
-date: 
-tags:
-  - post 
-  - featured
-rotate: rotate(-6)
-imageBlob: /assets/draw.jpg
-image: /assets/logo.png
 sourceImage: /assets/github.svg
-description: Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a Jamstack website!
+logos:
+  - logo_title: 11ty
+    src: /assets/projects/11ty.svg
+  - logo_title: Bulma
+    src: /assets/projects/bulma.svg
+  - logo_title: Netlify CMS
+    src: /assets/projects/netlify.svg
 sourceCode: https://github.com/J-Filip/Portfolio-redesign
-
+title: Portfolio redesign
+date: 2021-11-30T23:00:00.000Z
+imageBlob: /assets/draw.jpg
+tags:
+  - post
+image: /assets/projects/red-flame.png
+rotate: rotate(-6)
+description: Entering 2022. with a new portfolio. My first web portfolio 2021.
+  was a basic b***h site and updating it got tedious. This year I wanted
+  something cooler - a Jamstack website!
 ---
 __WHY?__
 - While it wasn't all that bad, 🔗[my former web portfolio](https://j-filip.github.io/my_resume/) was all html and css. I followed a YouTube tutorial (changed a lot of things of course) and build it so I had some place to show my projects. As more and more projects got finished or updated, I realized this wasn't the developer experience I wanted. I had to rebuild it in a way I could update the content with ease.  
