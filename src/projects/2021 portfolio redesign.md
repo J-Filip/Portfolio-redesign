@@ -2,7 +2,7 @@
 title: Portfolio redesign
 date: 
 tags:
-  - post
+  - post 
   - featured
 rotate: rotate(-6)
 imageBlob: /assets/draw.jpg
