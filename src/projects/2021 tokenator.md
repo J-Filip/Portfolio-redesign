@@ -1,22 +1,22 @@
 ---
 title: CN Helper - Tokenator
-date: 2021-10
+date: 2021-09-04T22:00:00.000Z
 tags:
   - post
   - featured
-  - svelte
 logos:
   - title: Svelte
     image: /assets/svelte.svg
     logo-title: JS
-    src: /assets/projects/javascript.svg
-    logo_title: JavaScript
-  - logo_title: LinkedIn
-    src: /assets/projects/linkedin.svg
+    src: /assets/projects/bulma.svg
+    logo_title: Bulma
+  - logo_title: Svelte
+    src: /assets/projects/svelte.svg
 imageBlob: /assets/cn2.png
-image: /assets/blue-blob.svg
 video: /assets/tokenator.mkv
-description: An add-on for CN Helper chrome extension. It spits out canned responses. Very useful for generating responses that follow the same template.  
+image: /assets/blue-blob.svg
+description: An add-on for CN Helper chrome extension. It spits out canned
+  responses. Very useful for generating responses that follow the same template.
 ---
 
 
