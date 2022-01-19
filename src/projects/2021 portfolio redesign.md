@@ -22,7 +22,6 @@ __WHAT?__
 - Having no idea about terms like SSG, headless CMS or jamstack I got cuorius. After reading about them I immediately knew I would have to read about it for another 17 times to get it. That process took some time but it started to make sense. I decided to go with Eleventy as a simple all-javascript SSG. For content management (for example writing this), I decided to go with Netlify CMS as it seemed very user-friendly. 
 
 As in one of my previous projects, all code is pushed to a GitHub repo and then linked to Netlify so each time I push changes to the remote repo, Netlify runs a build and deployes the site. 
-
 \
 \
 __HOW?__
