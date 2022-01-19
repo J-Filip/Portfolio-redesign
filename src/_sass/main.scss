@@ -8,10 +8,14 @@
 
 // 1. Import the initial variables
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Fira+Sans&display=swap');
+
 
 // 2. Set your own initial variables
 
-$body-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+ $body-family: 'Fira Sans', 'Bitter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",'Ubuntu';
+ $body-font-size: 1.1em;
 $title-weight: 700;
 $warning: #FBE099;
 $purple: #513bd1;
@@ -50,23 +54,6 @@ $primary: $purple;
       background-position: 100%;
     }
   }
-
-
-// @media (min-width: 1285px) {
-//   .back{
-//     background-image: url('/assets/big-head.png');
-//     background-position: left;
-//     background-repeat: no-repeat;
-//     background-size: contain
-//   }
-// }
-// @media (min-width: 1284px) {
-//   .mobile-back{
-//     display: none
-//   }
-// }
-
-
 
 // 4. Import the rest of Bulma
 

@@ -1,17 +1,19 @@
 ---
-title: Portfolio redesigned
+title: Portfolio redesign
 date: 
 tags:
   - post
   - featured
-rotate: rotate(0)
-imageBlob: /assets/heads.png
+rotate: rotate(-6)
+imageBlob: /assets/draw.jpg
 image: /assets/logo.png
-description: Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a JAMstack webiste.   
+sourceImage: /assets/github.svg
+description: Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a Jamstack website!
+sourceCode: https://github.com/J-Filip/Portfolio-redesign
 
 ---
 __WHY?__
-- While it wasn't all that bad my last web portfolio was all html and css. I followed a YouTube tutorial (changed a lot of things of course) and build it so I had some place to show my projects. As more and more projects got finished or updated, I realized this wasn't the developer experience I wanted. I had to rebuild it in a way I could update the content with ease.  
+- While it wasn't all that bad, 🔗[my former web portfolio](https://j-filip.github.io/my_resume/) was all html and css. I followed a YouTube tutorial (changed a lot of things of course) and build it so I had some place to show my projects. As more and more projects got finished or updated, I realized this wasn't the developer experience I wanted. I had to rebuild it in a way I could update the content with ease.  
 
 \
 \
@@ -21,31 +23,17 @@ __WHAT?__
 
 As in one of my previous projects, all code is pushed to a GitHub repo and then linked to Netlify so each time I push changes to the remote repo, Netlify runs a build and deployes the site. 
 
-
 \
 \
 __HOW?__
 
-
-- opisati ukratko svrhu oba alata u mom slucaju
-- jedan use-case - novi clanak, ne moram ulazit u kod, sve ide kroz cms
-
-
-
-The basic principle is this: script is executed depending on the curently opened page in the browser. Event listeners are used to react to agent's predictable actions. It mostly uses DOM manipulation to change the look of the page by inserting extra elements or presenting it in a more user-friendly way. 
-Most common features: autofill, extra dropdowns, filters, copy buttons...
-It's mostly written in vanilla JavaScript while there are parts written in up-and-coming Svelte. (Tokenator and extension's pop-up)
+SSG 11ty uses layouts - special templates used to wrap other content. For example, I created a base.njk file that contains "the base" for all other pages to use. Another cool thing about an SSG  is using collections for grouping content. In my example, projects are a collection of markdown files, with each one sharing a template but having a diffrent front matter data. 
+\
+Using a headless Netlify CMS we can manage content without touching the code. Even though I'm comfortable with code, this is a great and simple solution for seperating the front end from tthe content managment. The interface is user 
 
 ---
 __CONCLUSION__
 
- - prednosti ovih alata i kako je bolji od proslog rijesenja
- - što bi popravio, zasto nisam koristio npr. sveltekit
- 
+Jamstack architecture allows me to build a statically-served website and still get the benefits of a CMS. After finishing this project, I understand when it could be a good idea to go Jamstack. I must admit that the developer experience is much smoother then writing html and css only but I can't say I am still comfortable using the full power of SSG. 
 
-
-
-The extension is now used by majority of Helpdesk (Fig.1), and agents give valuable feedback that helps me improve the extension. My goal is to make it even more robust by integrating it with more apps and to provide richer features. The project has 50 closed issues and over 10 releases. 
-\
-\
-**_UPDATE 10/2021_** -  Most notable upgrade is called "Tokenator" (read more about it 🔗).
+Honestly, my first wish was to build this portfolio with SvelteKit but I am still waiting for it to hit the 1.0 version (go Rich!).  

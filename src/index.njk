@@ -3,9 +3,20 @@ title: Fancy title
 layout: base.njk
 ---
 
-<section class="section ">
+<section class="section " id='hero'>
   <div class="container">
     <div class="is-vcentered columns is-multiline">
+    <div class="column is-5 ml-auto">
+        <h2 class="mb-2 is-size-2 is-size-1-mobile has-text-weight-bold" data-config-id="header">Ooh, a visitor!</h2>
+        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">I am <span class="title has-text-primary is-size-3-mobile is-size-2" data-config-id="label">Filip Jugkala.</span>
+        </h2>
+        <p class="is-size-4 is-size-5-mobile has-text-grey mb-5" data-config-id="desc">And this thing floating around is a blob. How cool is that! Blob blob...</p>
+        {# <img src="/assets/down.png" alt="" class="image" style="height: 228px;"> #}
+        {# <figure class="image is-1by1">
+  <img src="/assets/down.png">
+</figure> #}
+        {# <a class="button is-primary background--custom_button" href="#" data-config-id="primary-action ">Explore my work</a> #}
+      </div>
       <div class="column is-6" >
         {# <img class="image " style="border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%"  src="/assets/blob.png" alt="" data-config-id="04_image"> #}
 
@@ -13,13 +24,9 @@ layout: base.njk
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform="rotate(-23)"><image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="/assets/draw.jpg" preserveAspectRatio="none"></image>                        <defs>                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">                            <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>                            <stop offset="100%" style="stop-color: rgb(224, 16, 106);"></stop>                        </linearGradient>                        </defs>                                            <clipPath id="shape"><path id="blob" fill="url(#gradient)">                            <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"></animate>                        </path></clipPath></svg>
 
       </div>
-      <div class="column is-5 ml-auto">
-        <h2 class="mb-2 is-size-2 is-size-1-mobile has-text-weight-bold" data-config-id="header">Ooh, a visitor!</h2>
-        <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">I am <span class="title has-text-primary is-size-3-mobile is-size-1" data-config-id="label">Filip Jugkala.</span>
-        </h2>
-        <p class="subtitle has-text-grey mb-5" data-config-id="desc">And this thing on Your left is a blob. How cool is that! Blob blob...</p>
-        <a class="button is-primary background--custom_button" href="#" data-config-id="primary-action ">Explore my work</a>
-      </div>
+
+      
+
     </div>
   </div>
 </section>
@@ -30,7 +37,7 @@ layout: base.njk
       <div class="column is-8 mb-6 has-text-centered ">
         <span class="has-text-grey-dark" data-config-id="label">Tools</span>
         <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold " data-config-id="header">Look what I know.</h2>
-        <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do You know? Hm? Hm?! </p>
+        <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do you know? Hmm? HMM?!! </p>
       </div>
     </div>
 
@@ -156,20 +163,24 @@ layout: base.njk
         <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold " data-config-id="header">Bio</h2>
       </div>
     </div>
-        <p class="subtitle has-text-grey pl-3" data-config-id="desc"> - Y'all got any more of them jobs? </p>
-        <img class="image" src="/assets/big-head.png" alt="alt">
+        <p class="subtitle has-text-primary pl-3 is-family-code " data-config-id="desc"  >  "Y'all got any more of them jobs?"</p>
+
+        {# <img class="image" src="/assets/big-head.png" alt="alt"> #}
+        <figure class="image ">
+  <img src="/assets/big-head1.jpg">
+</figure>
     </div>
   </div>
   <div class="column is-12 is-6-desktop" data-bucket="2">
     <div class="container p-5" >
                   {# <h2 class="mb-5 is-size-3 is-size-1-mobile has-text-weight-bold" data-config-id="title">Tell us about You...</h2> #}
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><strong>Name: </strong> Filip Jugkala.</h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><strong>Location: </strong> Zagreb, Croatia.</h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><s> Life plan:  Learn everything. Realize it's not possible. Get dissapointed. </s>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><strong>Name: </strong> Filip Jugkala.</h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><strong>Location: </strong> Zagreb, Croatia.</h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><s> Life plan:  Learn everything. Realize it's not possible. Get dissapointed. </s>
             </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>New plan: </strong> Start with JavaScript and gradually become  🎵 the very best, like no one ever was. TAM TAM! 🎵  </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>Likes: </strong> football, running, lake Jarun, Balašević, hiking. </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>Last seen: </strong> working at CARNET, maintaining two small projects for Helpdesk and working on a new one. </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>New plan: </strong> Start with JavaScript and gradually become  🎵 the very best, like no one ever was. TAM TAM! 🎵  </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>Likes: </strong> football, running, lake Jarun, Balašević, hiking. </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>Last seen: </strong> working at CARNET, maintaining two small projects for Helpdesk and working on a new one. </h2>
     </div>
   </div>
 </div>
@@ -197,14 +208,14 @@ layout: base.njk
 </div>
 </section> #}
 
-<section class="section has-background-primary-light">
+<section id='contact' class="section has-background-primary-light">
 <div class="container">
   <div class="columns is-multiline is-centered">
     <div class="column is-8 is-6-desktop">
       <div class="mx-auto mb-5 has-text-centered">
         <span class="has-text-grey-dark">Contact</span>
         <h2 class="mt-2 mb-3 is-size-1 is-size-3-mobile has-text-weight-bold">Be old-school, send an SMS. I love a good SMS.</h2>
-        <p class="has-text-grey-dark">.. or send an email. Try calling if You like the sound of beeping.</p>
+        <p class="has-text-grey-dark">.. or send an email. Try calling if you like the sound of beeping.</p>
       </div>
     </div>
     <div class="column is-12 is-10-desktop">
@@ -233,15 +244,19 @@ layout: base.njk
 
           </div>
         </div>
+
         <div class="column is-3 mb-3">
           <div class="box py-5 has-background-light has-text-centered" style="height: 100%; max-height: 196px;">
             <h3 class="is-size-4 has-text-weight-bold mb-5">Socials</h3>
             <div class="is-flex is-justify-content-center is-align-items-center">
-            <a href='#'> <img class="mx-2 image" style="height: 34px;" src="/assets/github.svg" alt=""> </a>
-            <a href='#'> <img class="mx-2 image" style="height: 34px;" src="/assets/linkedin.svg" alt=""> </a>
+            <a href='https://github.com/J-Filip' target="_blank" rel="noopener noreferrer"> <img class="mx-2 image" style="height: 34px;" src="/assets/github.svg" alt=""> </a>
+            <a href='https://www.linkedin.com/in/filip-jugkala-23a40391/' target="_blank" rel="noopener noreferrer"> <img class="mx-2 image" style="height: 34px;" src="/assets/linkedin.svg" alt=""> </a>
             </div>
           </div>
         </div>
+            <div class="container has-text-centered">
+          <a class="button is-large is-fullwidth background--custom_button" href="/assets/jugkala_resume_2021.pdf" download  >Download CV</a>
+    </div>
       </div>
     </div>
   </div>

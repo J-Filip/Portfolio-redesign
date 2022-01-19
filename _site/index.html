@@ -8,43 +8,62 @@
       Fancy title</title>
     <link rel="stylesheet" href="/main.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="/lib/main.js"></script>
 
   </head>
 
   <body>
 
     <header>
-      <nav class="navbar py-4">
+       <nav class="navbar py-4">
   <div class="container is-fluid">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#" data-config-id="brand">
-        <img class="image" alt="" >
-      </a>
-      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        
+        <a href="/">
+      <img class="image" src="/assets/logo.png" width="72px">
+        </a>
+      
+
+      <a class="navbar-item has-text-primary" href="/" data-config-id="link2">Home</a>
+      <a class="navbar-item has-text-primary" href="/projects" data-config-id="link1">Projects</a>
+       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div class="navbar-menu">
+
+    <div class="navbar-menu" id="navMenu">
       <div class="navbar-start">
-      <a class="navbar-item" href="/" data-config-id="link2">Home</a>
-      <a class="navbar-item" href="/projects" data-config-id="link1">Blog</a>
+      
       </div>
       <div class="navbar-item navbar-end">
         <div class="buttons">
-        <a class="button is-primary" href="#" data-config-id="primary-action">Contact</a></div>
+        <a class="button is-primary is-light" href="/assets/jugkala_resume_2021.pdf" download  >Download CV</a>
+        <a class="button is-primary" href="/#contact" data-config-id="primary-action">Contact</a>
+        </div>
       </div>
     </div>
-  </div>
+  </div> 
 </nav>
+
     </header>
 
     <main>
       
-<section class="section ">
+<section class="section " id='hero'>
   <div class="container">
     <div class="is-vcentered columns is-multiline">
+    <div class="column is-5 ml-auto">
+        <h2 class="mb-2 is-size-2 is-size-1-mobile has-text-weight-bold" data-config-id="header">Ooh, a visitor!</h2>
+        <h2 class="mb-4 is-size-2 is-size-3-mobile has-text-weight-bold" data-config-id="header">I am <span class="title has-text-primary is-size-3-mobile is-size-2" data-config-id="label">Filip Jugkala.</span>
+        </h2>
+        <p class="is-size-4 is-size-5-mobile has-text-grey mb-5" data-config-id="desc">And this thing floating around is a blob. How cool is that! Blob blob...</p>
+        
+        
+        
+      </div>
       <div class="column is-6" >
         
 
@@ -52,13 +71,9 @@
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform="rotate(-23)"><image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="/assets/draw.jpg" preserveAspectRatio="none"></image>                        <defs>                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">                            <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>                            <stop offset="100%" style="stop-color: rgb(224, 16, 106);"></stop>                        </linearGradient>                        </defs>                                            <clipPath id="shape"><path id="blob" fill="url(#gradient)">                            <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"></animate>                        </path></clipPath></svg>
 
       </div>
-      <div class="column is-5 ml-auto">
-        <h2 class="mb-2 is-size-2 is-size-1-mobile has-text-weight-bold" data-config-id="header">Ooh, a visitor!</h2>
-        <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold" data-config-id="header">I am <span class="title has-text-primary is-size-3-mobile is-size-1" data-config-id="label">Filip Jugkala.</span>
-        </h2>
-        <p class="subtitle has-text-grey mb-5" data-config-id="desc">And this thing on Your left is a blob. How cool is that! Blob blob...</p>
-        <a class="button is-primary background--custom_button" href="#" data-config-id="primary-action ">Explore my work</a>
-      </div>
+
+      
+
     </div>
   </div>
 </section>
@@ -69,7 +84,7 @@
       <div class="column is-8 mb-6 has-text-centered ">
         <span class="has-text-grey-dark" data-config-id="label">Tools</span>
         <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold " data-config-id="header">Look what I know.</h2>
-        <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do You know? Hm? Hm?! </p>
+        <p class="subtitle has-text-grey" data-config-id="desc">Okay, I don't "know it" know it, but I can make something with it. How much do you know? Hmm? HMM?!! </p>
       </div>
     </div>
 
@@ -159,9 +174,9 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="/projects/2021 portfolio redesign/">
           
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" rotate(0)">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="" transform=" rotate(-6)">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
-            href= "/assets/heads.png" preserveAspectRatio="none"></image>
+            href= "/assets/draw.jpg" preserveAspectRatio="none"></image>
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                 <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>
@@ -179,11 +194,11 @@
       <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">28 Dec 2021</span>
       <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">
         <a href="/projects/2021 portfolio redesign/" >
-          Portfolio redesigned</a>
+          Portfolio redesign</a>
       </h2>
       <div class="mb-4 is-flex">
       </div>
-      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a JAMstack webiste.
+      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a Jamstack website!
       </p>
       <a class="is-size-6 has-text-primary has-text-weight-bold" href="/projects/2021 portfolio redesign/"  data-config-id="action">Read more</a>
 
@@ -197,7 +212,7 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="/projects/2021 small-bussiness/">
           
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" rotate(30)">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="" transform=" rotate(30)">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
             href= "/assets/city.png" preserveAspectRatio="none"></image>
             <defs>
@@ -235,7 +250,7 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="/projects/2021 weather mApp/">
           
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" rotate(60)">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="" transform=" rotate(60)">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
             href= "/assets/snow.png" preserveAspectRatio="none"></image>
             <defs>
@@ -273,9 +288,9 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="/projects/2021 CN-helper/">
           
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" rotate(-118)">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="" transform=" rotate(0)">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
-            href= "/assets/blurry.png" preserveAspectRatio="none"></image>
+            href= "/assets/cn1.png" preserveAspectRatio="none"></image>
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                 <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>
@@ -311,9 +326,9 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="/projects/2021 tokenator/">
           
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" ">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="" transform=" ">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
-            href= "/assets/spear.png" preserveAspectRatio="none"></image>
+            href= "/assets/cn2.png" preserveAspectRatio="none"></image>
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                 <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>
@@ -331,7 +346,7 @@
       <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">1 Oct 2021</span>
       <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">
         <a href="/projects/2021 tokenator/" >
-          Tokenator</a>
+          CN Helper - Tokenator</a>
       </h2>
       <div class="mb-4 is-flex"><div class="has-text-grey-dark mr-4">
             <img src= /assets/projects/javascript.svg style="height: 34px;" alt="">
@@ -342,44 +357,6 @@
       <p class="mb-4 has-text-grey-dark" data-config-id="desc1">An add-on for CN Helper chrome extension. It spits out canned responses. Very useful for generating responses that follow the same template.
       </p>
       <a class="is-size-6 has-text-primary has-text-weight-bold" href="/projects/2021 tokenator/"  data-config-id="action">Read more</a>
-
-    </div>
-
-  </div>
-</div><div class="column is-4 "  >
-  <div class="box">
-    <div class="box-content">
-      <small class="is-absolute is-top-o is-right-0 mt-4 mr-4 tag is-dark" style="z-index: 10;" data-config-id="label1">PROJECT</small>
-      <div class=" mb-6 has-text-centered" style="height: 216px;">
-        <a href="/projects/2020 KB/">
-          
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" rotate(-100)">
-            <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
-            href= "/assets/poly.png" preserveAspectRatio="none"></image>
-            <defs>
-              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(195, 130, 44);"></stop>
-                <stop offset="100%" style="stop-color: rgb(224, 16, 106);"></stop>
-              </linearGradient>
-            </defs>
-            <clipPath id="shape">
-              <path id="blob" fill="url(#gradient)">
-                <animate attributeName="d" dur="5000ms" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"></animate>
-              </path>
-            </clipPath>
-          </svg>
-        </a>
-      </div>
-      <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">1 Nov 2020</span>
-      <h2 class="mb-4 is-size-4 has-text-weight-semibold" data-config-id="title1">
-        <a href="/projects/2020 KB/" >
-          Internal Web &amp; Knowledge Base</a>
-      </h2>
-      <div class="mb-4 is-flex">
-      </div>
-      <p class="mb-4 has-text-grey-dark" data-config-id="desc1">I was tired of using our old internal web. Then I got tired of myself complaining about it. WordPress came perfectly.
-      </p>
-      <a class="is-size-6 has-text-primary has-text-weight-bold" href="/projects/2020 KB/"  data-config-id="action">Read more</a>
 
     </div>
 
@@ -408,34 +385,38 @@
         <h2 class="mt-2 mb-4 is-size-2 is-size-1-mobile has-text-weight-bold " data-config-id="header">Bio</h2>
       </div>
     </div>
-        <p class="subtitle has-text-grey pl-3" data-config-id="desc"> - Y'all got any more of them jobs? </p>
-        <img class="image" src="/assets/big-head.png" alt="alt">
+        <p class="subtitle has-text-primary pl-3 is-family-code " data-config-id="desc"  >  "Y'all got any more of them jobs?"</p>
+
+        
+        <figure class="image ">
+  <img src="/assets/big-head1.jpg">
+</figure>
     </div>
   </div>
   <div class="column is-12 is-6-desktop" data-bucket="2">
     <div class="container p-5" >
                   
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><strong>Name: </strong> Filip Jugkala.</h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><strong>Location: </strong> Zagreb, Croatia.</h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"><s> Life plan:  Learn everything. Realize it's not possible. Get dissapointed. </s>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><strong>Name: </strong> Filip Jugkala.</h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><strong>Location: </strong> Zagreb, Croatia.</h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"><s> Life plan:  Learn everything. Realize it's not possible. Get dissapointed. </s>
             </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>New plan: </strong> Start with JavaScript and gradually become  🎵 the very best, like no one ever was. TAM TAM! 🎵  </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>Likes: </strong> football, running, lake Jarun, Balašević, hiking. </h2>
-            <h2 class="mb-5 is-size-3 is-size-3-mobile " data-config-id="title"> <strong>Last seen: </strong> working at CARNET, maintaining two small projects for Helpdesk and working on a new one. </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>New plan: </strong> Start with JavaScript and gradually become  🎵 the very best, like no one ever was. TAM TAM! 🎵  </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>Likes: </strong> football, running, lake Jarun, Balašević, hiking. </h2>
+            <h2 class="mb-5 is-size-3 is-size-4-mobile " data-config-id="title"> <strong>Last seen: </strong> working at CARNET, maintaining two small projects for Helpdesk and working on a new one. </h2>
     </div>
   </div>
 </div>
 
 
 
-<section class="section has-background-primary-light">
+<section id='contact' class="section has-background-primary-light">
 <div class="container">
   <div class="columns is-multiline is-centered">
     <div class="column is-8 is-6-desktop">
       <div class="mx-auto mb-5 has-text-centered">
         <span class="has-text-grey-dark">Contact</span>
         <h2 class="mt-2 mb-3 is-size-1 is-size-3-mobile has-text-weight-bold">Be old-school, send an SMS. I love a good SMS.</h2>
-        <p class="has-text-grey-dark">.. or send an email. Try calling if You like the sound of beeping.</p>
+        <p class="has-text-grey-dark">.. or send an email. Try calling if you like the sound of beeping.</p>
       </div>
     </div>
     <div class="column is-12 is-10-desktop">
@@ -464,15 +445,19 @@
 
           </div>
         </div>
+
         <div class="column is-3 mb-3">
           <div class="box py-5 has-background-light has-text-centered" style="height: 100%; max-height: 196px;">
             <h3 class="is-size-4 has-text-weight-bold mb-5">Socials</h3>
             <div class="is-flex is-justify-content-center is-align-items-center">
-            <a href='#'> <img class="mx-2 image" style="height: 34px;" src="/assets/github.svg" alt=""> </a>
-            <a href='#'> <img class="mx-2 image" style="height: 34px;" src="/assets/linkedin.svg" alt=""> </a>
+            <a href='https://github.com/J-Filip' target="_blank" rel="noopener noreferrer"> <img class="mx-2 image" style="height: 34px;" src="/assets/github.svg" alt=""> </a>
+            <a href='https://www.linkedin.com/in/filip-jugkala-23a40391/' target="_blank" rel="noopener noreferrer"> <img class="mx-2 image" style="height: 34px;" src="/assets/linkedin.svg" alt=""> </a>
             </div>
           </div>
         </div>
+            <div class="container has-text-centered">
+          <a class="button is-large is-fullwidth background--custom_button" href="/assets/jugkala_resume_2021.pdf" download  >Download CV</a>
+    </div>
       </div>
     </div>
   </div>
@@ -485,28 +470,20 @@
       
 <footer class="section pb-5 has-background-dark">
   <div class="container pb-5 has-text-centered" >
-    <a class="mx-auto mb-4 is-inline-block" href="#" data-config-id="brand">
-      <img class="image" src="/assets/logo.png" alt="" width="96px">
-    </a>
     <ul class="mb-4 is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center">
-      <li><a class="button is-white" href="#" data-config-id="01_link1">Home</a></li>
-      <li><a class="button is-white" href="#" data-config-id="01_link2">About</a></li>
-      <li><a class="button is-white" href="#" data-config-id="01_link2">Projects</a></li>
+      <li><a class="button is-white" href="/" data-config-id="01_link1">Home</a></li>
+      <li><a class="button is-white" href="/projects" data-config-id="01_link2">Projects</a></li>
     </ul>
-    <div>
-      <a class="mr-4 is-inline-block" href="#" >
-        <img src="/assets/github.svg" data-config-id="auto-img-1-3" style="height: 34px;">
-      </a>
-      <a class="is-inline-block" href="#">
-        <img src="/assets/linkedin.svg" data-config-id="auto-img-5-3" style="height: 34px;">
-      </a>
-    </div>
+    <a class="mx-auto mb-4 is-inline-block" href="#" data-config-id="brand">
+      <img class="image" src="/assets/logo.png" alt="" href='/#hero' width="96px">
+    </a>
+    
   </div>
   <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
   <div class="container">
     <p class="has-text-centered" data-config-id="copy">All rights reserved | Filip Jugkala 2022.
     </p>
-    
+
     </p>
     
     

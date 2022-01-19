@@ -16,14 +16,12 @@ video: /assets/small-business.mp4
 __WHY?__
 My friend asked me to build a simple website for his dad's business. The client wanted to finally have a web presence where future customers could contact him. 
 I decided to help as I knew it shouldn't take a lot of time. Besides that, there were few new tools I wanted to try out.
-
 \
 \
 __WHAT?__
 The inicial deal went great as the client didn't have a lot of requests. We were to build a "classic" small business (construction) website with main elements like about, services, gallery and contact. 
 The client had some design ideas based on simmilar pages in that domain but they were all screaming WordPress which seemed kind of outdated. So I showed him a few diffrent solutions and we agreed on a simple and dark look. 
 Hosting and domain name were paid and opened with client's account so they would have full control - I think that's important as it's their property and a right to choose to work with someone else during or after our deal.
-
 \
 \
 __HOW?__

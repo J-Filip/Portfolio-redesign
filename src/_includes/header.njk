@@ -1,24 +1,33 @@
-<nav class="navbar py-4">
+ <nav class="navbar py-4">
   <div class="container is-fluid">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#" data-config-id="brand">
-        <img class="image" alt="" >
-      </a>
-      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        
+        <a href="/">
+      <img class="image" src="/assets/logo.png" width="72px">
+        </a>
+      
+
+      <a class="navbar-item has-text-primary" href="/" data-config-id="link2">Home</a>
+      <a class="navbar-item has-text-primary" href="/projects" data-config-id="link1">Projects</a>
+       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div class="navbar-menu">
+
+    <div class="navbar-menu" id="navMenu">
       <div class="navbar-start">
-      <a class="navbar-item" href="/" data-config-id="link2">Home</a>
-      <a class="navbar-item" href="/projects" data-config-id="link1">Blog</a>
+      {# <a class="navbar-item" href="/" data-config-id="link2">Home</a>
+      <a class="navbar-item" href="/projects" data-config-id="link1">Projects</a> #}
       </div>
       <div class="navbar-item navbar-end">
         <div class="buttons">
-        <a class="button is-primary" href="#" data-config-id="primary-action">Contact</a></div>
+        <a class="button is-primary is-light" href="/assets/jugkala_resume_2021.pdf" download  >Download CV</a>
+        <a class="button is-primary" href="/#contact" data-config-id="primary-action">Contact</a>
+        </div>
       </div>
     </div>
-  </div>
+  </div> 
 </nav>

@@ -5,7 +5,7 @@
       <div class=" mb-6 has-text-centered" style="height: 216px;">
         <a href="{{ post.url}}">
           {# <img class="image is-fullwidth is-cover is-rounded" style="height: 100%;" src="{{ post.data.image }} "alt="" data-config-id="image1" > #}
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="80%" id="blobSvg" style="opacity: 1;" filter="blur(0px)" transform=" {{ post.data.rotate }}">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="75%" id="blobSvg" style="opacity: 1;" filter="{{ post.data.blur}}" transform=" {{ post.data.rotate }}">
             <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" 
             href= "{{ post.data.imageBlob }}" preserveAspectRatio="none"></image>
             <defs>

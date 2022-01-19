@@ -16,7 +16,7 @@ layout: base.njk
             </div>
             <div class="column is-6 is-5-desktop">
                 <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">{{ date | postDate }}</span>
-                <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">{{ title }}</h2>
+                <h2 class="mb-4 is-size-1 is-size-2-mobile has-text-primary has-text-weight-bold">{{ title }}</h2>
 
                 {%- for post in logos -%}
                     <div class="mb-4 is-flex">
@@ -60,10 +60,23 @@ layout: base.njk
 
                         </div>
                     {% endif %}
+
+                    {% if sourceCode %}
+                        <div class='notification  is-link is-light'>
+                        <p class='has-text-centered is-size-4 '>
+                        <a class=' is-link' style="text-decoration:none;"  href="{{ sourceCode }}">
+                            <img src="{{ sourceImage }}" style="height:26px;text-decoration:none;"> 
+                           SOURCE CODE  </a>
+                            <img src="{{ sourceImage }}" style="height:26px;text-decoration:none;"> 
+                        </p>
+
+                        </div>
+                        
+                    {% endif %}
                     {{ content | safe}}
 
                     <div class='mt-5  has-text-centered'>
-                        <a class="button is-info " href="#" data-config-id="primary-action "> ⬅️  back to projects</a>
+                        <a class="button is-large is-primary" href="/projects" data-config-id="primary-action "> ←  back to projects</a>
                     </div>
                 </div>
             </div>
