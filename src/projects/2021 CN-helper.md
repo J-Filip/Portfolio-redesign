@@ -5,7 +5,6 @@ title: CN Helper
 date: 2021-05-05T22:00:00.000Z
 tags:
   - post
-  - featured
 logos:
   - src: /assets/projects/javascript.svg
     logo_title: JavaScript
