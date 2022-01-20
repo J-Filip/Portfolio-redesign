@@ -107,7 +107,7 @@
             <div class="columns is-multiline is-centered">
                 <div class="column is-8 is-7-desktop">
                     <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
-                        Find out Your geolocation and get weather and air quality data for the location. You can also see where others have checked-in on the map.
+                        Find out Your geolocation and get weather and air quality data for the location. You can also see where others have checked in on the map.
                     </h2>
 
                     
@@ -122,27 +122,36 @@
                     
 
                     
+                        <div class='notification  is-link is-light'>
+                        <p class='has-text-centered is-size-4 '>
+                        <a class=' is-link' style="text-decoration:none;"  href="https://github.com/J-Filip/map_weather">
+                            <img src="" style="height:26px;text-decoration:none;"> 
+                           SOURCE CODE  </a>
+                            <img src="" style="height:26px;text-decoration:none;"> 
+                        </p>
+
+                        </div>
+                        
+                    
                     <p><strong>WHY?</strong></p>
 <p>My first dive into Node.js and backend development. The point wasn't to make another weather app but to learn to deal with APIs and fetching data. I built a modified project based on a tutorial by @joeyklee.
 <br>
 <br>
 <strong>WHAT?</strong></p>
-<p>I set up a server using express framework and used JavaScript Fetch API to get data from two APIs - weather and air quality. One of them required API key so I learned how to store private API keys using environment variables. Also, I deployed my web app to Heroku cloud platform with GitHub integration.
+<p>I set up a server using the express framework and used JavaScript Fetch API to get data from two APIs - weather and air quality. One of them required an API key so I learned how to store private API keys using environment variables. Also, I deployed my web app to the Heroku cloud platform with GitHub integration.
 <br>
 <br>
 <strong>HOW?</strong>
-What's really happening behind all this? When app is loaded, user is asked for permission to use his geolocation. If geolocation available, user can type in his nickname and press Check-in button that sends POST request to server with variables latitude and longitude. Server fetches weather and airquality APIs with user's coordinates and returns a response to the client. We make DOM changes with this data and send another POST request to server with data to be stored in the database.</p>
-<p>When &quot;All Logs&quot; is clicked, client sends GET request to server asking for the last 20 rows from the database. For each entry from database we create a DIV element and add a marker with a pop-up to a Leaflet map. When &quot;Croatia logs&quot; is clicked, same process is happening with postgres database but in this case we SEND user's country as route parameter to an endpoint, where we return only database rows where Country value is HR.</p>
+What's really happening behind all this? When the app is loaded, the user is asked for permission to use his geolocation. If geolocation is available, the user can type in his nickname and press the Check-in button that sends POST requests to the server with variables latitude and longitude. The server fetches weather and air quality APIs with the user's coordinates and returns a response to the client. We make DOM changes with this data and send another POST request to the server with data to be stored in the database.</p>
+<p>When &quot;All Logs&quot; is clicked, the client sends a GET request to the server asking for the last 20 rows from the database. For each entry from the database, we create a DIV element and add a marker with a pop-up to a Leaflet map. When &quot;Croatia logs&quot; is clicked, the same process is happening with the Postgres database but in this case, we SEND the user's country as a route parameter to an endpoint, where we return only database rows where the Country value is HR.</p>
 <hr>
 <p><strong>CONCLUSION</strong>
-Even though my app did not won any design or originality awards (the why still eludes me), it shed a lot more light on API's and why and how they are used. After finishing it, I felt a lot more comfortable approaching other API's. It opened a whole new set of ideas that seemed a lot more advanced then they actually are.
-In my next project, I am using two approaches in dealing with API's - WordPress REST API from our knowledge base (read more) and STRAPI - an API driven headless CMS.
+Even though my app did not win any design or originality awards (the why still eludes me), it shed a lot more light on APIs and why and how they are used. After finishing it, I felt a lot more comfortable approaching other APIs. It opened a whole new set of ideas that seemed a lot more advanced than they actually are. In my next project, I am using two approaches in dealing with APIs - WordPress REST API from our knowledge base (read more) and STRAPI - an API-driven headless CMS.
 <br>
 <br>
 <strong><em>UPDATE 07/2021</em></strong> -  added PostgreSQL database
 <br>
-<strong><em>UPDATE 08/2021</em></strong> -  the looks really weren't important but I could not look at it. So I asked my friend to contribute with his super-mediocre front-end skills - and he made it watchable.
-Thanks @Brnjak6. [LINK]</p>
+<strong><em>UPDATE 08/2021</em></strong> - the looks really weren't important but I could not look at it. So I asked my friend to contribute with his super-mediocre front-end skills - and he made it watchable. Thank You <a href="https://github.com/Brnjak6">@Brnjak6</a>.</p>
 
 
                     <div class='mt-5  has-text-centered'>
@@ -166,7 +175,7 @@ Thanks @Brnjak6. [LINK]</p>
       <li><a class="button is-white" href="/projects" data-config-id="01_link2">Projects</a></li>
     </ul>
     <a class="mx-auto mb-4 is-inline-block" href="#" data-config-id="brand">
-      <img class="image" src="/assets/logo.png" alt="" href='/#hero' width="96px">
+      <img class="image" src="/assets/logo.png" alt="" href='/' width="96px">
     </a>
     
   </div>
