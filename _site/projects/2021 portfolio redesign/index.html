@@ -65,8 +65,38 @@
 
             </div>
             <div class="column is-6 is-5-desktop">
-                <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">Invalid DateTime</span>
-                <h2 class="mb-4 is-size-1 is-size-2-mobile has-text-primary has-text-weight-bold">Portfolio redesign</h2>
+                <span class="is-inline-block mb-4 has-text-grey-dark" data-config-id="date1">1 Dec 2021</span>
+                <h2 class="mb-4 is-size-1 is-size-2-mobile has-text-primary has-text-weight-bold">Portfolio redesign</h2><div class="mb-4 is-flex">
+                        <div class="has-text-grey-dark">
+                            <img src= /assets/projects/11ty.svg style="height: 34px;" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h5 class="is-size-5 has-text-weight-normal">
+                                11ty
+                            </h5>
+                        </div>
+
+                    </div><div class="mb-4 is-flex">
+                        <div class="has-text-grey-dark">
+                            <img src= /assets/projects/bulma.svg style="height: 34px;" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h5 class="is-size-5 has-text-weight-normal">
+                                Bulma
+                            </h5>
+                        </div>
+
+                    </div><div class="mb-4 is-flex">
+                        <div class="has-text-grey-dark">
+                            <img src= /assets/projects/netlify.svg style="height: 34px;" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h5 class="is-size-5 has-text-weight-normal">
+                                Netlify CMS
+                            </h5>
+                        </div>
+
+                    </div>
 
             </div>
 
@@ -77,7 +107,7 @@
             <div class="columns is-multiline is-centered">
                 <div class="column is-8 is-7-desktop">
                     <h2 class="mb-5 is-size-3 is-size-3-mobile has-text-weight-bold">
-                        Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b***h site and updating it got tedious. This year I wanted something cooler - a Jamstack website!
+                        Entering 2022. with a new portfolio. My first web portfolio 2021. was a basic b**ch site and updating it got tedious. This year I wanted something cooler - a Jamstack website!
                     </h2>
 
                     
@@ -106,8 +136,8 @@
 <ul>
 <li>Having no idea about terms like SSG, headless CMS or jamstack I got cuorius. After reading about them I immediately knew I would have to read about it for another 17 times to get it. That process took some time but it started to make sense. I decided to go with Eleventy as a simple all-javascript SSG. For content management (for example writing this), I decided to go with Netlify CMS as it seemed very user-friendly.</li>
 </ul>
-<p>As in one of my previous projects, all code is pushed to a GitHub repo and then linked to Netlify so each time I push changes to the remote repo, Netlify runs a build and deployes the site.</p>
-<p><br>
+<p>As in one of my previous projects, all code is pushed to a GitHub repo and then linked to Netlify so each time I push changes to the remote repo, Netlify runs a build and deployes the site.
+<br>
 <br>
 <strong>HOW?</strong></p>
 <p>SSG 11ty uses layouts - special templates used to wrap other content. For example, I created a base.njk file that contains &quot;the base&quot; for all other pages to use. Another cool thing about an SSG  is using collections for grouping content. In my example, projects are a collection of markdown files, with each one sharing a template but having a diffrent front matter data.

@@ -21,6 +21,7 @@ collections:
         fields: 
           - {label: 'Logo', name: 'logo_title', widget: 'string'} 
           - {label: 'Logo image', name: 'src', widget: 'image'} 
-      - { label: 'Featured Image', name: 'image', widget: 'image' }
+      - { label: 'Image Blob', name: 'imageBlob', widget: 'image' }
+      - { label: 'Source Code', name: 'sourceCode', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
