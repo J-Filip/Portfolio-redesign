@@ -10,6 +10,7 @@ logos:
   - src: /assets/projects/javascript.svg
     logo_title: JavaScript
 imageBlob: /assets/steps.png
+sourceCode: https://github.com/J-Filip/ahk_first_app
 video: /assets/mejloMlat.mp4
 image: /assets/projects/blue-flame.png
 rotate: rotate(41)
