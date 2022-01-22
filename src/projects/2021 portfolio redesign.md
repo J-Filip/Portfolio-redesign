@@ -36,10 +36,12 @@ __HOW?__
 SSG 11ty uses layouts - special templates used to wrap other content. For example, I created a base.njk file that contains "the base" for all other pages to use. Another cool thing about an SSG  is using collections for grouping content. In my example, projects are a collection of markdown files, with each one sharing a template but having different front matter data. 
 \
 Using a headless Netlify CMS we can manage content without touching the code. Even though I'm comfortable with code, this is a great and simple solution for separating the front end from the content management. The interface is user-friendly and it can be a great solution for non-tech-savvy users.
+\
+I used Shuffle editor for the design. I went with the more casual approach as I feel this represents the real me. Big letters, emoticons, flying blobs, and goofy descriptions beacause...why not? If You want to get straight down to business, You can always just download my CV or look into my LinkedIn and GitHub profiles.  
 
 ---
 __CONCLUSION__
 
-Jamstack architecture allows me to build a statically-served website and still get the benefits of a CMS. After finishing this project, I understand when it could be a good idea to go Jamstack. I must admit that the developer experience is much smoother then writing HTML and CSS only but I can't say I am still comfortable using the full power of SSG. 
+Jamstack architecture allows me to build a statically-served website and still get the benefits of a CMS. After finishing this project, I understand when it could be a good idea to go Jamstack. I must admit that the developer experience is much smoother then writing HTML and CSS only but I can't say I am still comfortable using the full power of SSG.
 
 Honestly, my first wish was to build this portfolio with SvelteKit but I am still waiting for it to hit the 1.0 version (go Rich!).  
