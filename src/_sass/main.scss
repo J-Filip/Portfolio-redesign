@@ -6,12 +6,12 @@
 // Just uncomment the following block to see the result.
 
 
-// 1. Import the initial variables
+//! 1. Import the initial variables
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Fira+Sans&display=swap');
 
 
-// 2. Set your own initial variables
+//! 2. Set your own initial variables
 
 
  $body-family: 'Fira Sans', 'Bitter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",'Ubuntu';
@@ -23,7 +23,16 @@ $dark: #FFF;
 $size-2: 5rem;
 
 
-// 3. Set the derived variables
+//! 3. Set the derived variables
+
+// fix horizontal scroll on mobile view
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
 
 $body-background-color: $white;
 $primary: $purple;
@@ -55,7 +64,7 @@ $primary: $purple;
     }
   }
 
-// 4. Import the rest of Bulma
+//! 4. Import the rest of Bulma
 
 
 @import "../../node_modules/bulma/bulma";
