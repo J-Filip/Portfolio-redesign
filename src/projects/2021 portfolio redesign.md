@@ -11,6 +11,8 @@ logos:
     src: /assets/projects/bulma.svg
   - logo_title: Netlify CMS
     src: /assets/projects/netlify.svg
+  - logo_title: Shuffle
+    src: /assets/projects/shuffle.png
 imageBlob: /assets/draw.jpg
 sourceCode: https://github.com/J-Filip/Portfolio-redesign
 image: /assets/projects/red-flame.png
