@@ -8,6 +8,8 @@ tags:
 logos:
   - src: /assets/projects/javascript.svg
     logo_title: JavaScript
+  - logo_title: Webpack
+    src: /assets/projects/webpack.svg
 sourceCode: ""
 image2: /assets/cn-helper-stats.png
 imageBlob: /assets/cn1.png
