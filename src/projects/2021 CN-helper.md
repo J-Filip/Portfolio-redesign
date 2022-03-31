@@ -38,6 +38,8 @@ It's mostly written in vanilla JavaScript while there are parts written in up-an
 
 **CONCLUSION**
 The extension is now used by the majority of the Helpdesk (Fig.1), and agents give valuable feedback that helps me improve the extension. My goal is to make it even more robust by integrating it with more apps and providing richer features. The project has 50 closed issues and over 10 releases. 
+
+
 \
 ***UPDATE 03/2022*** -  The project is now private.\
 ***UPDATE 10/2021*** -  The most notable upgrade is called ["Tokenator"](https://11ty-bulma-netlifycms.netlify.app/projects/2021%20tokenator/).
