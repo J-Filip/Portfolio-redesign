@@ -12,8 +12,8 @@ logos:
     logo_title: Bulma
   - logo_title: Svelte
     src: /assets/projects/svelte.svg
-  - logo_title: Rollup
-    src: /assets/projects/rollupjs.svg
+  - logo_title: Webpack
+    src: /assets/projects/webpack.svg
 imageBlob: /assets/cn2.png
 sourceCode: ""
 video: /assets/tokenator.mkv
@@ -45,6 +45,5 @@ For styling, I used the CSS framework Bulma.
 
 This add-on for CN Helper eliminated the need for the use of an excel table, sped up the entire process of building new canned responses and significantly reduced the chance of error. The application basically stayed the same to this day because it fulfills its specific purpose - but another idea came to my mind and it's currently in the development process. 
 
-
-\
+***UPDATE 04/2022*** -  Set up webpack.\
 ***UPDATE 03/2022*** -  The project is now private.
