@@ -1,9 +1,9 @@
 ---
-blur: blur(7px)
 title: CN Helper 2 (MailoMat)
 date: 2022-02-01T23:00:00.000Z
 tags:
   - post
+  - featured
 logos:
   - logo_title: Svelte
     src: /assets/projects/svelte.svg
@@ -12,18 +12,16 @@ logos:
   - logo_title: WordPress
     src: /assets/projects/wordpress.svg
 imageBlob: /assets/spear.png
-video: /assets/travolta.mp4
+video: /assets/cn_helper_2.mkv
 image: /assets/blue-blob.svg
 rotate: rotate(-74)
-description: A Svelte + Strapi or Wordpress as a headless cms project.
-  Tehnically an improved version of my first project - MailoMlat. I would like
-  to combine few other features in it to create a complete solution for our
-  Helpdesk needs.
+description: A Svelte + WordPress as a headless cms project. Technically an improved version of my first project - MailoMlat.
 ---
 - - -
 
 **WHY?**
-As this is an improved version of my first Helpdesk project, You can read about the **Why** in[MejloMlat.](https://filip-jugkala.com/projects/2020%20mejlomlat/)
+As this is an improved version of my first Helpdesk project, You can read about the **Why** in [MejloMlat.](https://filip-jugkala.com/projects/2020%20mejlomlat/)
+\
 \
 **HOW?**
 The most important improvement is decoupling the content from the presentation. As our business logic might change, it must be easily updated and not hardcoded as in my first approach.
@@ -38,5 +36,5 @@ All of the data is now consumed using API calls and the presentation is handled 
 This app can now be used to quickly build an entire response out of predefined parts that are fetched using WordPress API. Body parts can be edited and you can add more of them. Those parts are defined by team leaders and can be customized with special keywords that represent variables in responses. 
 Business logic changes are now easily implemented without touching the code, using a simple and intuitive WordPress dashboard.
 
-.\
+\
 ***UPDATE 04/2022*** -  The project is now private.
