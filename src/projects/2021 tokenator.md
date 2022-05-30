@@ -3,7 +3,6 @@ title: CN Helper - Tokenator
 date: 2021-09-04T22:00:00.000Z
 tags:
   - post
-  - featured
 logos:
   - title: Svelte
     image: /assets/svelte.svg
