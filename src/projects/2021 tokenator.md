@@ -44,5 +44,5 @@ For styling, I used the CSS framework Bulma.
 
 This add-on for CN Helper eliminated the need for the use of an excel table, sped up the entire process of building new canned responses and significantly reduced the chance of error. The application basically stayed the same to this day because it fulfills its specific purpose - but another idea came to my mind and it's currently in the development process. 
 
-***UPDATE 04/2022*** -  Set up webpack.\
-***UPDATE 03/2022*** -  The project is now private.
+***UPDATE 04/2022*** -  Migrated from rollup to webpack.\
+***UPDATE 03/2022*** -  The project is now hosted within a company's own infrastructure.
