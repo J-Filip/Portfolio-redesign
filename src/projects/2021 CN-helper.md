@@ -19,6 +19,8 @@ description: A chrome extension for boosting productivity for Helpdesk agents.
   It provides better UX with visual cues, autocomplete options, and school
   search via pop-up.
 ---
+
+
 - - -
 
 **WHY?**
@@ -36,10 +38,10 @@ It's mostly written in vanilla JavaScript while there are parts written in up-an
 
 - - -
 
-**CONCLUSION**
-The extension is now used by the majority of the Helpdesk (Fig.1), and agents give valuable feedback that helps me improve the extension. My goal is to make it even more robust by integrating it with more apps and providing richer features. The project has over 80 closed issues and over 20 releases. 
+> **CONCLUSION**
+> The extension is now used by the majority of the Helpdesk (Fig.1), and agents give valuable feedback that helps me improve the extension. My goal is to make it even more robust by integrating it with more apps and providing richer features.
 
-\
-***UPDATE 04/2022*** -  Set up webpack.\
-***UPDATE 03/2022*** -  The project is now hosted within a company's own infrastructure.\
+***UPDATE 08/2022*** -  Over **100** closed issues and **30** releases.\
+***UPDATE 04/2022*** -  Set up **Webpack**.\
+***UPDATE 03/2022*** -  The project is now private.\
 ***UPDATE 10/2021*** -  The most notable upgrade is called ["Tokenator"](https://filip-jugkala.com/projects/2021%20tokenator/).
