@@ -19,8 +19,6 @@ description: A chrome extension for boosting productivity for Helpdesk agents.
   It provides better UX with visual cues, autocomplete options, and school
   search via pop-up.
 ---
-
-
 - - -
 
 **WHY?**
