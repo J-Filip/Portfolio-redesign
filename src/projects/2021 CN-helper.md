@@ -41,5 +41,5 @@ The extension is now used by the majority of the Helpdesk (Fig.1), and agents gi
 
 \
 ***UPDATE 04/2022*** -  Set up webpack.\
-***UPDATE 03/2022*** -  The project is now private.\
+***UPDATE 03/2022*** -  The project is now hosted within a company's own infrastructure.\
 ***UPDATE 10/2021*** -  The most notable upgrade is called ["Tokenator"](https://filip-jugkala.com/projects/2021%20tokenator/).
