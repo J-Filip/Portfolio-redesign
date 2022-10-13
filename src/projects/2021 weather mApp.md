@@ -40,8 +40,9 @@ When "All Logs" is clicked, the client sends a GET request to the server asking 
 - - -
 
 **CONCLUSION**
-Even though my app did not win any design or originality awards (the why still eludes me), it shed a lot more light on APIs and why and how they are used. After finishing it, I felt a lot more comfortable approaching other APIs. It opened a whole new set of ideas that seemed a lot more advanced than they actually are. In my next project, I am using two approaches in dealing with APIs - WordPress REST API from our knowledge base (read more) and STRAPI - an API-driven headless CMS. 
+Even though my app did not win any design or originality awards (the why still eludes me), it shed a lot more light on APIs and why and how they are used. After finishing it, I felt a lot more comfortable approaching other APIs. It opened a whole new set of ideas that seemed a lot more advanced than they actually are. In my next project, I am using two approaches in dealing with APIs - WordPress REST API from our knowledge base (read more) and STRAPI - an API-driven headless CMS. \
+
 \
 ***UPDATE 10/2022*** -  if you see this, please remind to find a new place to host my app since Heroku is no longer free starting November 28th. You get a high five!\
-***UPDATE 07/2021*** -  added PostgreSQL database 
+***UPDATE 07/2021*** -  added PostgreSQL database.\
 ***UPDATE 08/2021*** - the looks really weren't important but I could not look at it. So I asked my friend to contribute with his super-mediocre front-end skills - and he made it watchable. Thank You [@Brnjak6](https://github.com/Brnjak6).
