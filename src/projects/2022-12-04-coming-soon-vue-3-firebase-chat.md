@@ -1,5 +1,5 @@
 ---
-title: "[Coming soon] Vue 3 & Firebase chat"
+title: "[Coming soon] Vue 3 & Firebase chat "
 date: 2022-11-03T19:15:24.413Z
 tags:
   - post
