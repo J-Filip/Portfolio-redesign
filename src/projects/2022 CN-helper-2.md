@@ -11,9 +11,7 @@ logos:
     src: /assets/projects/bulma.svg
   - logo_title: WordPress
     src: /assets/projects/wordpress.svg
-  - logo_title: Vue
-    src: /assets/projects/vue.svg
-imageBlob: /assets/projects/peaks.png
+imageBlob: /assets/projects/spear.png
 video: /assets/cn_helper_2.mkv
 image: /assets/blue-blob.svg
 rotate: rotate(-74)
