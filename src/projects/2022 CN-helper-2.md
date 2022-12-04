@@ -11,11 +11,14 @@ logos:
     src: /assets/projects/bulma.svg
   - logo_title: WordPress
     src: /assets/projects/wordpress.svg
+  - logo_title: Vue
+    src: /_site/assets/vue.svg
 imageBlob: /assets/spear.png
 video: /assets/cn_helper_2.mkv
 image: /assets/blue-blob.svg
 rotate: rotate(-74)
-description: A Svelte + WordPress as a headless cms project. Technically an improved version of my first project - MailoMlat.
+description: A Svelte + WordPress as a headless cms project. Technically an
+  improved version of my first project - MailoMlat.
 ---
 - - -
 
