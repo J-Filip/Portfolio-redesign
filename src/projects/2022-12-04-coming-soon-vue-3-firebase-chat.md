@@ -9,6 +9,6 @@ logos:
   - logo_title: Firebase
     src: /_site/assets/firebase.svg
 imageBlob: /_site/assets/peaks.png
-description: Coming soon
+description: Coming soon...
 ---
 A﻿ chat build with Vue 3 and Firebase...
