@@ -10,6 +10,7 @@ logos:
     src: /assets/projects/firebase.svg
 imageBlob: /assets/projects/vue_firebase.png
 sourceCode: https://github.com/J-Filip/vue_firestore_chat
+sourceImage: /assets/github.svg
 description: Public chat app made with Vue 3 with Firebase auth and hosting.
 ---
 ###  🔗﻿[D﻿EMO](https://vuefirebase-3b15b.web.app/)
