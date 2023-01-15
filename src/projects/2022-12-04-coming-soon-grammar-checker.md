@@ -1,8 +1,10 @@
 ---
-title: "[Coming soon] Grammar checker"
+title: "[Coming soon] React grammar checker"
 date: 2022-10-21T20:42:37.510Z
 tags:
   - post
+  - featured
+
 logos:
   - logo_title: React
     src: /assets/projects/react.svg

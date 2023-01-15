@@ -4,6 +4,7 @@ title: Portfolio redesign
 date: 2021-11-30T23:00:00.000Z
 tags:
   - post
+  - featured
 logos:
   - logo_title: 11ty
     src: /assets/projects/11ty.svg
@@ -16,7 +17,7 @@ logos:
 imageBlob: /assets/draw.jpg
 sourceCode: https://github.com/J-Filip/Portfolio-redesign
 image: /assets/projects/red-flame.png
-rotate: rotate(-6)
+rotate: rotate(-26)
 description: Entering 2022. with a new portfolio. My first web portfolio in
   2021. was a basic b**ch site and updating it got tedious. This year I wanted
   something cooler - a Jamstack website!

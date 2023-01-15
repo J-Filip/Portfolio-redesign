@@ -3,6 +3,7 @@ title: "Vue 3 & Firebase chat "
 date: 2022-11-03T20:27:04.885Z
 tags:
   - post
+  - featured
 logos:
   - logo_title: Vue
     src: /assets/projects/vue.svg
@@ -11,6 +12,7 @@ logos:
 imageBlob: /assets/projects/vue_firebase.png
 sourceCode: https://github.com/J-Filip/vue_firestore_chat
 sourceImage: /assets/github.svg
+rotate: rotate(-54)
 description: Public chat app made with Vue 3 with Firebase auth and hosting.
 ---
 ###  🔗﻿[D﻿EMO](https://vuefirebase-3b15b.web.app/)

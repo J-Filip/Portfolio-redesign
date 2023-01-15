@@ -3,7 +3,6 @@ title: MejloMlat
 date: 2021-02-19T23:00:00.000Z
 tags:
   - post
-  - featured
 logos:
   - src: /assets/projects/ahk.svg
     logo_title: AutoHotkey
