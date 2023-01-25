@@ -15,7 +15,7 @@ imageBlob: /assets/projects/spear.png
 video: /assets/cn_helper_2.mkv
 image: /assets/blue-blob.svg
 rotate: rotate(-74)
-description: A Svelte + WordPress REST API single page application. Technically
+description: A Svelte + WordPress REST API single-page application. Technically
   an improved version of my first project - MailoMlat.
 ---
 - - -
