@@ -4,7 +4,6 @@ date: 2022-02-01T23:00:00.000Z
 tags:
   - post
   - featured
-
 logos:
   - logo_title: Svelte
     src: /assets/projects/svelte.svg
@@ -16,8 +15,8 @@ imageBlob: /assets/projects/spear.png
 video: /assets/cn_helper_2.mkv
 image: /assets/blue-blob.svg
 rotate: rotate(-74)
-description: A Svelte + WordPress as a headless cms project. Technically an
-  improved version of my first project - MailoMlat.
+description: A Svelte + WordPress REST API single page application. Technically
+  an improved version of my first project - MailoMlat.
 ---
 - - -
 
@@ -35,7 +34,7 @@ All of the data is now consumed using API calls and the presentation is handled 
 - - -
 
 **CONCLUSION**
-This app can now be used to quickly build an entire response out of predefined parts that are fetched using WordPress API. Body parts can be edited and you can add more of them. Those parts are defined by team leaders and can be customized with special keywords that represent variables in responses. 
+This SPA can now be used to quickly build an entire response out of predefined parts that are fetched using WordPress API. Body parts can be edited and you can add more of them. Those parts are defined by team leaders and can be customized with special keywords that represent variables in responses. 
 Business logic changes are now easily implemented without touching the code, using a simple and intuitive WordPress dashboard.
 
 \
