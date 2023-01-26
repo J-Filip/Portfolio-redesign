@@ -17,8 +17,9 @@ imageBlob: /assets/cn2.png
 sourceCode: ""
 video: /assets/tokenator.mkv
 image: /assets/blue-blob.svg
-description: An add-on for CN Helper chrome extension. It spits out canned
-  responses. Very useful for generating responses that follow the same template.
+description: An add-on for CN Helper chrome extension rendered in the form of a
+  single-page application. Very useful for generating responses that follow the
+  same template.
 ---
 **WHY?**
 
@@ -33,7 +34,7 @@ Besides that, it gave me a chance to try out Svelte - a new JavaScript compiler 
 \
 **HOW?**
 
-Tokenator is a form with textarea as its main element and other form elements where data is filled by the user or automatically. It uses Svelte's reactive declarations which "will automatically recompute logic that depends on state variables when Svelte state is updated". Every time the value of form elements changes, the value of textarea changes.
+Tokenator is sort of a SPA - a form with textarea as its main element and other form elements where data is filled by the user or automatically. It is rendered by a chrome extension and integrates with our internal tool for generating tokens. It uses Svelte's reactive declarations which "will automatically recompute logic that depends on state variables when Svelte state is updated". Every time the value of form elements changes, the value of textarea changes.
 As this response must be copied and pasted in another application, I had to make this transition easy as possible so they don't have to do any formatting in another application (notepad, for example).
 When the user builds a response, they only have to click the "Format&Copy" button which formats and copies the text so it can be used immediately.
 For styling, I used the CSS framework Bulma.
