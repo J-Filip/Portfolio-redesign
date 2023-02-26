@@ -1,6 +1,6 @@
 ---
 sourceImage: /assets/github.svg
-title: "Vue 3 & Firebase chat "
+title: "[On hold] Vue 3 & Firebase chat "
 date: 2022-11-03T20:27:04.885Z
 tags:
   - post
