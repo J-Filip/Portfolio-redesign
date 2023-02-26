@@ -11,7 +11,7 @@ logos:
     src: /assets/projects/javascript.svg
   - logo_title: Vue
     src: /assets/projects/vue.svg
-imageBlob: /assets/projects/blue-flame.png
+imageBlob: /assets/projects/hasek_pattern.svg
 description: Grammar checker for croatian and english language using Hašek API.
 ---
 **SUMMARY**
