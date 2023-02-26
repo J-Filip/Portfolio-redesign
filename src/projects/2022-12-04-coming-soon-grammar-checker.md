@@ -5,6 +5,8 @@ tags:
   - post
   - featured
 logos:
+  - logo_title: Webpack
+    src: /assets/projects/webpack.svg
   - logo_title: Vanilla JavaScript
     src: /assets/projects/javascript.svg
   - logo_title: Vue
