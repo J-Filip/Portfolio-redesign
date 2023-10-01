@@ -6,10 +6,10 @@ tags:
   - post
 logos:
   - logo_title: Vue
-    src: /assets/projects/vue.svg
+    src: /assets/vue.svg
   - logo_title: Firebase
-    src: /assets/projects/firebase.svg
-imageBlob: /assets/projects/chat_pattern.svg
+    src: /assets/firebase.svg
+imageBlob: /assets/chat_pattern.svg
 sourceCode: https://github.com/J-Filip/vue_firestore_chat
 rotate: rotate(-54)
 description: Public chat app made with Vue 3 with Firebase auth and hosting.

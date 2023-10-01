@@ -4,14 +4,14 @@ date: 2021-02-19T23:00:00.000Z
 tags:
   - post
 logos:
-  - src: /assets/projects/ahk.svg
+  - src: /assets/ahk.svg
     logo_title: AutoHotkey
-  - src: /assets/projects/javascript.svg
+  - src: /assets/javascript.svg
     logo_title: JavaScript
 imageBlob: /assets/steps.png
 sourceCode: https://github.com/J-Filip/ahk_first_app
 video: /assets/mejloMlat.mp4
-image: /assets/projects/blue-flame.png
+image: /assets/blue-flame.png
 rotate: rotate(41)
 description: My first solo project. GUI mail composer & webscraper. Made for job
   purposes. Looks ancient.
@@ -22,7 +22,7 @@ list:
 __MAIL COMPOSER__
 
 __WHY?__
-As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this. Agents constantly use copy-paste or write the same responses repeteadly that results with slower repsonse time and response typos. 
+As a Help Desk Agent huge part of our job is written communication via mail. Most of our mails have the same structure and many answers repeat over time, so we all use notepad and have some .txt file where we keep all of this. Agents constantly use copy-paste or write the same responses repeteadly that results with slower repsonse time and response typos.
 
 __WHAT?__
 My idea was to build a mail composer with all the most common answers built in and ready to compose into final mail. This saves time for agents especially since they don't depend on their own files when changing workstation. It also removes the need for constant copy-pasting and ensures no typos.
@@ -34,13 +34,13 @@ __WHY?__
 We use data from diffrent system and apps and we often have to filter it to get the information we want. Then we have to perform certain tasks depending on the status of the data collected. This includes monitoring a lot of open tabs and windows waiting for changes.
 
 __WHAT?__
-Why not do the searching and monitoring automatically if we know how the data is structured? So I came up with a web scraper that searches for specific data and presents it in a more useful way.  
+Why not do the searching and monitoring automatically if we know how the data is structured? So I came up with a web scraper that searches for specific data and presents it in a more useful way.
 \
 \
 __HOW?__
 I used AHK and JavaScript to build a GUI with two parts:
 - Mail Composer for inserting diffrent parts of mail using form elements. Mail can then be copied to a new tab which checks grammar (ispravi.me), formatted and copied to clipboard for further use.
-- Web Scraper injects JavaScript code via Chrome debug mode and performs actions or returns wanted data. It uses vanilla JavaScript for DOM scraping (no libraries). 
+- Web Scraper injects JavaScript code via Chrome debug mode and performs actions or returns wanted data. It uses vanilla JavaScript for DOM scraping (no libraries).
 Examples of scraping: agents currently working, number of incoming calls, on-hold time.
 
 ---

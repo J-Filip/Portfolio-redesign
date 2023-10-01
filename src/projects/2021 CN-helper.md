@@ -6,14 +6,14 @@ date: 2021-05-05T22:00:00.000Z
 tags:
   - post
 logos:
-  - src: /assets/projects/javascript.svg
+  - src: /assets/javascript.svg
     logo_title: JavaScript
   - logo_title: Webpack
-    src: /assets/projects/webpack.svg
+    src: /assets/webpack.svg
 sourceCode: ""
 image2: /assets/cn-helper-stats.png
 imageBlob: /assets/cn1.png
-image: /assets/projects/blue-flame.png
+image: /assets/blue-flame.png
 rotate: rotate(0)
 description: A chrome extension for boosting productivity for Helpdesk agents.
   It provides better UX with visual cues, autocomplete options, and school
@@ -30,7 +30,7 @@ While my first app [MejloMlat](https://11ty-bulma-netlifycms.netlify.app/project
 \
 \
 **HOW?**
-The basic principle is this: the script is executed depending on the currently opened page in the browser. It uses event listeners that react to the agent's predictable actions. It mostly uses DOM manipulation to change the look of the page by inserting extra elements or presenting it in a more user-friendly way. 
+The basic principle is this: the script is executed depending on the currently opened page in the browser. It uses event listeners that react to the agent's predictable actions. It mostly uses DOM manipulation to change the look of the page by inserting extra elements or presenting it in a more user-friendly way.
 Most common features: autofill, extra dropdowns, filters, copy buttons...
 It's mostly written in vanilla JavaScript while there are parts written in up-and-coming Svelte (Tokenator and extension's pop-up).
 
@@ -43,4 +43,4 @@ It's mostly written in vanilla JavaScript while there are parts written in up-an
 ***UPDATE 08/2022*** -  Over **100** closed issues and **30** releases.\
 ***UPDATE 04/2022*** -  Set up **Webpack**.\
 ***UPDATE 03/2022*** -  The project is now private.\
-***UPDATE 10/2021*** -  The most notable upgrade is called ["Tokenator"](https://filip-jugkala.com/projects/2021%20tokenator/).
+***UPDATE 10/2021*** -  The most notable upgrade is called ["Tokenator"](https://filip-jugkala.com/2021%20tokenator/).

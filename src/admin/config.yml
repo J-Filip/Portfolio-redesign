@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: '_site/assets/projects'
-public_folder: '/assets/projects'
+media_folder: '_site/assets'
+public_folder: '/assets'
 
 
 collections:
@@ -20,9 +20,9 @@ collections:
         name: 'logos'
         widget: 'list'
         required: false
-        fields: 
-          - {label: 'Logo', name: 'logo_title', widget: 'string'} 
-          - {label: 'Logo image', name: 'src', widget: 'image'} 
+        fields:
+          - {label: 'Logo', name: 'logo_title', widget: 'string'}
+          - {label: 'Logo image', name: 'src', widget: 'image'}
       - { label: 'Image Blob', name: 'imageBlob', widget: 'image' }
       - { label: 'Source Code', name: 'sourceCode', widget: 'string', required: false }
       - { label: 'Description', name: 'description', widget: 'string' }
