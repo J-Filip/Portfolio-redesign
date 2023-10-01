@@ -4,7 +4,6 @@ title: "Vue 3 & Firebase chat "
 date: 2022-11-03T20:27:04.885Z
 tags:
   - post
-  - featured
 logos:
   - logo_title: Vue
     src: /assets/projects/vue.svg
