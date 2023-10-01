@@ -3,7 +3,6 @@ backend:
   branch: master
 
 media_folder: '_site/assets'
-public_folder: '/assets'
 
 
 collections:
